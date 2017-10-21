@@ -1,0 +1,21 @@
+fact(N, R) :-
+	N > 1,
+	N1 is N - 1,
+	fact(N1, R1),
+	R is N * R1
+
+
+read_number(x):-
+	write('Input: ')
+	read(x)
+
+run:-
+	read_number(x)
+	fact(X, R)
+	print(R)
+
+predicat_test:-
+	fact(1, 1)
+	fact(2, 2)
+	fact(3, 6)
+	write('OK')

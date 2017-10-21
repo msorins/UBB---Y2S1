@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/so/Desktop/Y2S2/MLP/Lab1/Lab1Test/Node.cpp
+Node.h
+/Users/so/Desktop/Y2S2/MLP/Lab1/Lab1Test/Node.h
+
+/Users/so/Desktop/Y2S2/MLP/Lab1/Lab1Test/Node.h
+
+/Users/so/Desktop/Y2S2/MLP/Lab1/Lab1Test/SLL.cpp
+SLL.h
+/Users/so/Desktop/Y2S2/MLP/Lab1/Lab1Test/SLL.h
+
+/Users/so/Desktop/Y2S2/MLP/Lab1/Lab1Test/SLL.h
+Node.h
+/Users/so/Desktop/Y2S2/MLP/Lab1/Lab1Test/Node.h
+
+/Users/so/Desktop/Y2S2/MLP/Lab1/Lab1Test/main.cpp
+iostream
+-
+SLL.h
+/Users/so/Desktop/Y2S2/MLP/Lab1/Lab1Test/SLL.h
+

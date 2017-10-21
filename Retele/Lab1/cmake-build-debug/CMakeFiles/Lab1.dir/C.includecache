@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/so/Desktop/Y2S2/Retele/Lab1/client.c
+sys/types.h
+-
+sys/socket.h
+-
+stdio.h
+-
+netinet/in.h
+-
+netinet/ip.h
+-
+string.h
+-
+
+/Users/so/Desktop/Y2S2/Retele/Lab1/server.c
+sys/types.h
+-
+sys/socket.h
+-
+stdio.h
+-
+netinet/in.h
+-
+netinet/ip.h
+-
+string.h
+-
+

@@ -1,0 +1,3 @@
+/Users/so/Desktop/Y2S2/Retele/Lab3/LabWork/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/so/Desktop/Y2S2/Retele/Lab3/LabWork/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/so/Desktop/Y2S2/Retele/Lab3/LabWork/cmake-build-debug/CMakeFiles/LabWork.dir
