@@ -7,11 +7,14 @@ import model.expressions.IExp;
 import model.expressions.VarExp;
 import model.statements.*;
 import repository.Repository;
+import view.commands.*;
+import view.menu.TextMenu;
 
 import java.util.Scanner;
 
 public class View {
     private Controller controller;
+    private TextMenu menu;
 
     public View(Controller controller) {
         this.controller = controller;
@@ -26,6 +29,16 @@ public class View {
         controller = new Controller(repository);
     }
 
+    public void createMenu() throws Exception {
+        menu = new TextMenu();
+
+        menu.addCommand(new RunInputCommand("1", "Input Statement", controller));
+        menu.addCommand(new PrintCommand("2", "View Programs", controller) );
+        menu.addCommand(new RunOneStepCommand("3", "One step eval", controller));
+        menu.addCommand(new RunAllStepsCommand("4", "All steps eval", controller));
+        menu.addCommand(new ExitCommand("5", "Exit", controller));
+
+    }
     public void newProgram(IStmt stmt) {
         controller.newProgram(stmt);
     }

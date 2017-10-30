@@ -5,6 +5,8 @@ import model.adts.MyList;
 import model.state.PrgState;
 import model.statements.IStmt;
 
+import java.io.IOException;
+
 public interface IRepository {
     MyList<PrgState> getPrograms();
     PrgState getProgramAt(int index) throws AdtExceptions;

@@ -6,12 +6,18 @@ import model.adts.MyList;
 import model.state.PrgState;
 import model.statements.IStmt;
 import repository.IRepository;
+import repository.IRepositoryLog;
+import repository.Repository;
 
 public class Controller implements IController, IRepository {
-    IRepository repo;
+    IRepositoryLog repo;
 
-    public Controller(IRepository repo) {
+    public Controller(IRepositoryLog repo) {
         this.repo = repo;
+    }
+
+    public Controller() {
+        repo = new Repository();
     }
 
     @Override
@@ -21,6 +27,7 @@ public class Controller implements IController, IRepository {
             throw new Exception("No more operations needed");
 
         IStmt crtStatement = execStack.pop();
+        repo.logPrgStateExec();
         return crtStatement.execute(state);
     }
 

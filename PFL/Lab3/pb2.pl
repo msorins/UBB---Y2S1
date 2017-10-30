@@ -99,3 +99,21 @@ sort_all_subl([HA|TA], [HR|TR]) :-
 sort_all_subl([HA|TA], [HR|TR]) :-
 	sort_all_subl(TA, TR),
 	HR is HA.
+
+
+% TEST
+
+merge_sort_test() :-
+	merge_sort([1], [1]),
+	merge_sort([1, 2, 3], [1, 2, 3]),
+	merge_sort([3, 2, 1], [1, 2, 3]),
+	merge_sort([5,7,2,1,101,2,4], [1, 2, 2, 4, 5, 7, 101]).
+
+sort_all_subl_test() :-
+	sort_all_subl( [1, 2, [4, 1, 4], 3, 6, [7, 10, 1, 3, 9], 5, [1, 1, 1], 7],
+				   [1, 2, [1, 4, 4], 3, 6, [1, 3, 7, 9, 10], 5, [1, 1, 1], 7] ),
+
+	sort_all_subl( [5, 4, 3, 2], [5, 4, 3, 2]),
+	sort_all_subl( [], []),
+	sort_all_subl([9, [6,5,4,3], 9, [6,5,4,3]],
+				  [9, [3,4,5,6], 9, [3,4,5,6]]).

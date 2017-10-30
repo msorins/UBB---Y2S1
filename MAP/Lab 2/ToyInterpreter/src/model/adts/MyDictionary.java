@@ -1,12 +1,16 @@
 package model.adts;
 
 import exceptions.AdtExceptions;
+import view.commands.Command;
 
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.Set;
 
 public class MyDictionary<K, V> implements MyIDictionary<K, V> {
     private HashMap<K, V> data;
+    private int sizeMax = 0;
 
     public MyDictionary() {
         data = new HashMap<K, V>();
@@ -15,6 +19,7 @@ public class MyDictionary<K, V> implements MyIDictionary<K, V> {
     @Override
     public void insert(K key, V value) {
         data.put(key, value);
+        sizeMax += 1;
     }
 
     @Override
@@ -46,6 +51,11 @@ public class MyDictionary<K, V> implements MyIDictionary<K, V> {
     }
 
     @Override
+    public int sizeMax() {
+        return sizeMax;
+    }
+
+    @Override
     public V get(K key) throws AdtExceptions {
         if(!find(key))
             throw new AdtExceptions("Key not found");
@@ -67,5 +77,15 @@ public class MyDictionary<K, V> implements MyIDictionary<K, V> {
         output += " }";
 
         return output;
+    }
+
+    @Override
+    public Set<K> getKeys() {
+        return data.keySet();
+    }
+
+    @Override
+    public Collection<V> getValues() {
+        return data.values();
     }
 }
