@@ -10,7 +10,7 @@ public class ConstExp implements IExp {
     }
 
     @Override
-    public int eval(MyIDictionary<String, Integer> d) {
+    public int eval(MyIDictionary<String, Integer> d, MyIDictionary<Integer, Integer> h) {
         return this.value;
     }
 

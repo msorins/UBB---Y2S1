@@ -13,7 +13,7 @@ public class TextMenu {
         this.commands = new MyDictionary<>();
     }
 
-    public void addCommand(Command c) {
+    public void addCommand(Command c) throws AdtExceptions {
         commands.insert(c.getKey(), c);
     }
 

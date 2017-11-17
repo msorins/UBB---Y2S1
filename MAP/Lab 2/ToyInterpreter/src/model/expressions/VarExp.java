@@ -10,7 +10,7 @@ public class VarExp implements IExp {
     }
 
     @Override
-    public int eval(MyIDictionary<String, Integer> d) throws Exception {
+    public int eval(MyIDictionary<String, Integer> d, MyIDictionary<Integer, Integer> h) throws Exception {
        if(d.find(expr))
            return d.get(expr);
 

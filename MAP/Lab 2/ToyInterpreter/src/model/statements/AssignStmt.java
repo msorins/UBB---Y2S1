@@ -22,7 +22,8 @@ public class AssignStmt implements IStmt{
     public PrgState execute(PrgState state) throws Exception {
         MyIStack<IStmt> stk=state.getExeStack();
         MyIDictionary<String,Integer> symTbl= state.getSymTable();
-        int val = exp.eval(symTbl);
+        MyIDictionary<Integer, Integer> heapTbl = state.getHeap();
+        int val = exp.eval(symTbl, heapTbl);
 
         if(symTbl.find(id))
             symTbl.update(id, val);

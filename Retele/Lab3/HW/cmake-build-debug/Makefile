@@ -150,6 +150,33 @@ client.c.s:
 	$(MAKE) -f CMakeFiles/HW.dir/build.make CMakeFiles/HW.dir/client.c.s
 .PHONY : client.c.s
 
+client_v2.o: client_v2.c.o
+
+.PHONY : client_v2.o
+
+# target to build an object file
+client_v2.c.o:
+	$(MAKE) -f CMakeFiles/HW.dir/build.make CMakeFiles/HW.dir/client_v2.c.o
+.PHONY : client_v2.c.o
+
+client_v2.i: client_v2.c.i
+
+.PHONY : client_v2.i
+
+# target to preprocess a source file
+client_v2.c.i:
+	$(MAKE) -f CMakeFiles/HW.dir/build.make CMakeFiles/HW.dir/client_v2.c.i
+.PHONY : client_v2.c.i
+
+client_v2.s: client_v2.c.s
+
+.PHONY : client_v2.s
+
+# target to generate assembly for a file
+client_v2.c.s:
+	$(MAKE) -f CMakeFiles/HW.dir/build.make CMakeFiles/HW.dir/client_v2.c.s
+.PHONY : client_v2.c.s
+
 server.o: server.c.o
 
 .PHONY : server.o
@@ -177,6 +204,33 @@ server.c.s:
 	$(MAKE) -f CMakeFiles/HW.dir/build.make CMakeFiles/HW.dir/server.c.s
 .PHONY : server.c.s
 
+server_v2.o: server_v2.c.o
+
+.PHONY : server_v2.o
+
+# target to build an object file
+server_v2.c.o:
+	$(MAKE) -f CMakeFiles/HW.dir/build.make CMakeFiles/HW.dir/server_v2.c.o
+.PHONY : server_v2.c.o
+
+server_v2.i: server_v2.c.i
+
+.PHONY : server_v2.i
+
+# target to preprocess a source file
+server_v2.c.i:
+	$(MAKE) -f CMakeFiles/HW.dir/build.make CMakeFiles/HW.dir/server_v2.c.i
+.PHONY : server_v2.c.i
+
+server_v2.s: server_v2.c.s
+
+.PHONY : server_v2.s
+
+# target to generate assembly for a file
+server_v2.c.s:
+	$(MAKE) -f CMakeFiles/HW.dir/build.make CMakeFiles/HW.dir/server_v2.c.s
+.PHONY : server_v2.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -189,9 +243,15 @@ help:
 	@echo "... client.o"
 	@echo "... client.i"
 	@echo "... client.s"
+	@echo "... client_v2.o"
+	@echo "... client_v2.i"
+	@echo "... client_v2.s"
 	@echo "... server.o"
 	@echo "... server.i"
 	@echo "... server.s"
+	@echo "... server_v2.o"
+	@echo "... server_v2.i"
+	@echo "... server_v2.s"
 .PHONY : help
 
 

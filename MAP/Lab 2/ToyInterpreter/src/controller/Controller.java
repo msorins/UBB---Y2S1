@@ -1,6 +1,7 @@
 package controller;
 
 import exceptions.AdtExceptions;
+import model.adts.MyIDictionary;
 import model.adts.MyIStack;
 import model.adts.MyList;
 import model.state.PrgState;
@@ -8,6 +9,11 @@ import model.statements.IStmt;
 import repository.IRepository;
 import repository.IRepositoryLog;
 import repository.Repository;
+
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.stream.Collectors;
 
 public class Controller implements IController, IRepository {
     IRepositoryLog repo;
@@ -41,7 +47,16 @@ public class Controller implements IController, IRepository {
     public void allSteps(PrgState state) throws Exception {
         MyIStack<IStmt> execStack = state.getExeStack();
         while(!execStack.empty()) {
+            //Execute one step
             oneStep(state);
+
+            //Call Garbage Collector
+            state.getHeap().setData(
+                    conservativeGarbageCollector(
+                            state.getSymTable(),
+                            state.getHeap()
+                    )
+            );
         }
     }
 
@@ -64,6 +79,13 @@ public class Controller implements IController, IRepository {
             adtExceptions.printStackTrace();
         }
         return null;
+    }
+
+    @Override
+    public HashMap<Integer, Integer> conservativeGarbageCollector(MyIDictionary<String, Integer> symTable, MyIDictionary<Integer, Integer> heap) {
+        return (HashMap<Integer, Integer>) heap.entrySet().stream()
+                .filter( e -> symTable.getValues().contains(e.getKey()) )
+                .collect( Collectors.toMap( Map.Entry::getKey,  Map.Entry::getValue ));
     }
 
     @Override

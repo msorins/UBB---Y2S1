@@ -41,7 +41,8 @@ public class Repository implements IRepository, IRepositoryLog{
                 new MyDictionary<String, Integer>(),
                 new MyList<Integer>(),
                 stmt,
-                new MyDictionary<Integer, FileTableData>()
+                new MyDictionary<Integer, FileTableData>(),
+                new MyDictionary<Integer, Integer>()
         );
 
         programs.push_back(newProg);

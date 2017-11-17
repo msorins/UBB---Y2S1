@@ -17,11 +17,12 @@ public class CloseRFileStmt implements IStmt {
 
     @Override
     public PrgState execute(PrgState state) throws Exception {
-        MyDictionary<Integer, FileTableData> fileTbl = state.getFileTable();
+        MyIDictionary<Integer, FileTableData> fileTbl = state.getFileTable();
         MyIDictionary<String, Integer> symDict = state.getSymTable();
+        MyIDictionary<Integer, Integer> heap = state.getHeap();
 
         //Eval expression
-        int fileId = exp_file_id.eval(symDict);
+        int fileId = exp_file_id.eval(symDict, heap);
 
         //Find fileId in the fileTabel
         if(!fileTbl.find(fileId))

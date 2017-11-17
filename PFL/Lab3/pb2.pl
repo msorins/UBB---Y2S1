@@ -73,10 +73,7 @@ second_half_wrap(A, R) :-
 
 merge_sort([], []).
 
-merge_sort([HA|TA], [Res]) :-
-	length([HA|TA], SizeA),
-	SizeA =:= 1,
-	Res is [HA].
+merge_sort([H], [H]).
 
 merge_sort(A, Res) :-
 	length(A, SizeA),

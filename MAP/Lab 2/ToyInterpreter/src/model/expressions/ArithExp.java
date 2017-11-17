@@ -14,9 +14,9 @@ public class ArithExp implements IExp{
     }
 
     @Override
-    public int eval(MyIDictionary<String, Integer> d) throws Exception {
-        int evalLeft = this.leftSide.eval(d);
-        int evalRight = this.rightSide.eval(d);
+    public int eval(MyIDictionary<String, Integer> d, MyIDictionary<Integer, Integer> h) throws Exception {
+        int evalLeft = this.leftSide.eval(d, h);
+        int evalRight = this.rightSide.eval(d, h);
 
         switch (operator) {
             case('+'):

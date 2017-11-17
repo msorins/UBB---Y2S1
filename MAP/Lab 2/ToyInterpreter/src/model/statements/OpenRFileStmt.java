@@ -2,6 +2,7 @@ package model.statements;
 
 import exceptions.StatementsExceptions;
 import model.adts.MyDictionary;
+import model.adts.MyIDictionary;
 import model.adts.MyIStack;
 import model.state.FileTableData;
 import model.state.PrgState;
@@ -22,7 +23,7 @@ public class OpenRFileStmt implements IStmt {
 
     @Override
     public PrgState execute(PrgState state) throws Exception {
-        MyDictionary<Integer, FileTableData> fileTbl = state.getFileTable();
+        MyIDictionary<Integer, FileTableData> fileTbl = state.getFileTable();
 
         //Check to see the file is not opened
         boolean found = false;

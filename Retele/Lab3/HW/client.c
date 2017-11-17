@@ -17,26 +17,29 @@ void main() {
     char message[100];
     uint32_t lh, ln;
 
+    //CREATE THE SOCKET
     sd = socket (AF_INET, SOCK_DGRAM, 0);
     memset ((char *) &server, 0, sizeof (server));
 
+    //SERVER OPTIONS
     server.sin_family = AF_INET;
     server.sin_addr.s_addr = inet_addr("127.0.0.1");
     server.sin_port = htons (12345);
 
-
-    int lung = sizeof(server);
-
+    //READ MESSAGE FROM KEYBOARD
     printf("Message: ");
     fgets(message, sizeof(message), stdin);
     lh = strlen(message);
     ln = htons(lh);
 
+    //SEND MESSAGE TO SERVER
     sendto(sd, (int*)&ln, sizeof(ln), 0, (struct sockaddr *) &server, sizeof (server));
     sendto(sd, (char*)&message, sizeof(message), 0, (struct sockaddr *) &server, sizeof (server));
 
+    //RECEIVE MESSAGE FROM SERVER
     recvfrom(sd, (char*)&message, sizeof(message), 0, (struct sockaddr *) &server, &lh);
     printf("Receive from server: %s\n", message);
 
+    //CLOSE CONNECTIONS
     close(sd);
 }

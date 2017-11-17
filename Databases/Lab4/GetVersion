@@ -1,0 +1,7 @@
+CREATE PROCEDURE GetVersion
+@Res OUT
+AS
+  BEGIN
+  	SELECT TOP 1 @Res = VersionNr
+  	FROM Version
+  END

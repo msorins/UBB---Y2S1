@@ -1,7 +1,5 @@
 import controller.Controller;
-import model.expressions.ArithExp;
-import model.expressions.ConstExp;
-import model.expressions.VarExp;
+import model.expressions.*;
 import model.statements.*;
 import repository.Repository;
 import view.View;
@@ -30,11 +28,63 @@ public class Interpreter {
                 )
         );
 
+        IStmt ex5 = new CompStmt(
+                new AssignStmt("v", new ConstExp(10)),
+                new CompStmt(
+                        new NewStmt("v", new ConstExp(20)),
+                        new CompStmt(
+                                new NewStmt("a", new ConstExp(22)),
+                                new CompStmt(
+                                        new PrintStmt(new ArithExp('+', new ConstExp(100), new rHExp("v"))),
+                                        new PrintStmt(new ArithExp('+', new ConstExp(100), new rHExp("a")))
+                                        )
+                                )
+                        )
+                );
+
+        IStmt ex6 = new CompStmt(
+                new AssignStmt("v", new ConstExp(10)),
+                new CompStmt(
+                        new NewStmt("v", new ConstExp(20)),
+                        new CompStmt(
+                                new NewStmt("a", new ConstExp(22)),
+                                new CompStmt(new wHStmt("a", new ConstExp(30)),
+                                            new CompStmt(
+                                                    new PrintStmt(new VarExp("a")),
+                                                    new PrintStmt(new rHExp("a"))
+                                            )
+                                )
+                        )
+                )
+        );
+
+        IStmt ex7 = new CompStmt(
+                new AssignStmt("v", new ConstExp(10)),
+                new CompStmt(
+                        new NewStmt("v", new ConstExp(20)),
+                        new CompStmt(
+                                new NewStmt("a", new ConstExp(22)),
+                                new CompStmt(new wHStmt("a", new ConstExp(30)),
+                                        new CompStmt(
+                                                new PrintStmt(new VarExp("a")),
+                                                new CompStmt(
+                                                        new PrintStmt(new rHExp("a")),
+                                                        new AssignStmt("a", new ConstExp(0))
+                                                )
+                                        )
+                                )
+                        )
+                )
+        );
+
         Controller controller = new Controller();
         controller.newProgram(ex1);
         controller.newProgram(ex2);
         controller.newProgram(ex3);
         controller.newProgram(ex4);
+        controller.newProgram(ex5);
+        controller.newProgram(ex6);
+        controller.newProgram(ex7);
 
         TextMenu menu = new TextMenu();
         menu.addCommand(new RunInputCommand("1", "Input Statement", controller));

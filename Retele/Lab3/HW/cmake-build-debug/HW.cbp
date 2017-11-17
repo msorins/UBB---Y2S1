@@ -83,7 +83,13 @@
 		<Unit filename="/Users/so/Desktop/Y2S2/Retele/Lab3/HW/client.c">
 			<Option target="HW"/>
 		</Unit>
+		<Unit filename="/Users/so/Desktop/Y2S2/Retele/Lab3/HW/client_v2.c">
+			<Option target="HW"/>
+		</Unit>
 		<Unit filename="/Users/so/Desktop/Y2S2/Retele/Lab3/HW/server.c">
+			<Option target="HW"/>
+		</Unit>
+		<Unit filename="/Users/so/Desktop/Y2S2/Retele/Lab3/HW/server_v2.c">
 			<Option target="HW"/>
 		</Unit>
 		<Unit filename="/Users/so/Desktop/Y2S2/Retele/Lab3/HW/CMakeLists.txt">

@@ -14,25 +14,29 @@ public class PrgState {
     private MyIDictionary<String, Integer> symTable;
     private MyIList<Integer> out;
     private IStmt originalProgram;
-    private MyDictionary<Integer, FileTableData> fileTable;
+    private MyIDictionary<Integer, FileTableData> fileTable;
+    private MyIDictionary<Integer, Integer> heap;
 
-    public PrgState(MyIStack<IStmt> stk, MyIDictionary<String, Integer> symtbl, MyIList<Integer> ot, IStmt prg, MyDictionary<Integer, FileTableData> ft){
+    public PrgState(MyIStack<IStmt> stk, MyIDictionary<String, Integer> symtbl, MyIList<Integer> ot, IStmt prg, MyIDictionary<Integer, FileTableData> ft, MyIDictionary<Integer, Integer> hp){
         exeStack = stk;
         symTable = symtbl;
         out = ot;
         originalProgram = prg;
         fileTable = ft;
+        heap = hp;
         stk.push(prg);
     }
 
     @Override
     public String toString() {
-        return "PrgState{" +
-                "exeStack=" + exeStack.toString() +
-                ", symTable=" + symTable.toString() +
-                ", out=" + out.toString() +
-                ", originalProgram=" + originalProgram.toString() +
-                '}';
+        return "PrgState { " +
+                "\n \texeStack = " + exeStack.toString() +
+                "\n \tsymTable = " + symTable.toString() +
+                "\n \tout = " + out.toString() +
+                "\n \tfileTable = " + fileTable.toString() +
+                "\n \theap = " + heap.toString() +
+                "\n \toriginalProgram = " + originalProgram.toString() +
+                "\n }";
     }
 
     public MyIStack<IStmt> getExeStack() {
@@ -67,11 +71,19 @@ public class PrgState {
         this.originalProgram = originalProgram;
     }
 
-    public MyDictionary<Integer, FileTableData> getFileTable() {
+    public MyIDictionary<Integer, FileTableData> getFileTable() {
         return fileTable;
     }
 
-    public void setFileTable(MyDictionary<Integer, FileTableData> fileTable) {
+    public void setFileTable(MyIDictionary<Integer, FileTableData> fileTable) {
         this.fileTable = fileTable;
+    }
+
+    public MyIDictionary<Integer, Integer> getHeap() {
+        return heap;
+    }
+
+    public void setHeap(MyIDictionary<Integer, Integer> heap) {
+        this.heap = heap;
     }
 }

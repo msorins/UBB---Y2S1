@@ -20,7 +20,7 @@ public class IfStmt implements IStmt{
         //To do
         MyIStack<IStmt> exeStack = state.getExeStack();
 
-        if(exp.eval(state.getSymTable()) == 1 ) {
+        if(exp.eval(state.getSymTable(), state.getHeap()) == 1 ) {
             exeStack.push(thenS);
         } else {
             exeStack.push(elseS);

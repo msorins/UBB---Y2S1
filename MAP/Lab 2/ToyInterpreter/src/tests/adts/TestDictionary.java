@@ -7,7 +7,7 @@ import org.omg.CORBA.INTERNAL;
 public class TestDictionary {
 
     @Test
-    void testInsertFindSize() {
+    void testInsertFindSize() throws AdtExceptions {
         MyDictionary<String, Integer> dict = new MyDictionary<String, Integer>();
 
         dict.insert("abc", 1);

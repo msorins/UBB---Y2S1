@@ -1,12 +1,8 @@
 package model.adts;
 
 import exceptions.AdtExceptions;
-import view.commands.Command;
 
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Set;
+import java.util.*;
 
 public class MyDictionary<K, V> implements MyIDictionary<K, V> {
     private HashMap<K, V> data;
@@ -17,14 +13,17 @@ public class MyDictionary<K, V> implements MyIDictionary<K, V> {
     }
 
     @Override
-    public void insert(K key, V value) {
+    public void insert(K key, V value) throws AdtExceptions {
+        if(data.containsKey(key))
+            throw new AdtExceptions("Key already found");
+
         data.put(key, value);
         sizeMax += 1;
     }
 
     @Override
     public void update(K key, V value) {
-        insert(key, value);
+        data.put(key, value);
     }
 
     @Override
@@ -87,5 +86,20 @@ public class MyDictionary<K, V> implements MyIDictionary<K, V> {
     @Override
     public Collection<V> getValues() {
         return data.values();
+    }
+
+    @Override
+    public Set<Map.Entry<K, V>> entrySet() {
+        return data.entrySet();
+    }
+
+    @Override
+    public void setData(HashMap<K, V> mp) {
+        this.data = mp;
+    }
+
+    @Override
+    public HashMap<K, V> getData() {
+        return data;
     }
 }

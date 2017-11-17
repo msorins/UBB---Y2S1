@@ -27,14 +27,18 @@ void main() {
     char message[100], message_rev[100];
     u_short lh, ln;
     int lung, i;
+
+    //CREATE SERVER SOCKET
     sd = socket (AF_INET, SOCK_DGRAM, 0);
     printf("socket %d\n", sd);
-    memset ((char *) &server, 0, sizeof (server));
 
+    //SERVER OPTIONS
+    memset ((char *) &server, 0, sizeof (server));
     server.sin_family = AF_INET;
     server.sin_addr.s_addr = INADDR_ANY;
     server.sin_port = htons (12345);
 
+    //BIND CONNECTIONS
     i = bind (sd, (struct sockaddr *) &server, sizeof (server));
 
     while(1) {
@@ -42,24 +46,19 @@ void main() {
         lung = sizeof(client);
         uint32_t lh, ln;
 
-        //Receive data from client
+        //RECEIVE DATA
         i = recvfrom(sd, (int*)&ln, sizeof(ln), 0, (struct sockaddr *) &client, &lung);
         lh = ntohs(ln);
         i = recvfrom(sd, (char*)&message, sizeof(char) * lh, 0, (struct sockaddr *) &client, &lung);
 
 
-        int pid = fork();
-        if(pid == SON) {
-            //Do the computation in a separate process
-            message[lh] = '\0';
-            reverse_string(message, message_rev);
+        //COMPUTE
+        message[lh] = '\0';
+        reverse_string(message, message_rev);
 
-            //Send response to client
-            i = sendto(sd, (char*)&message_rev, sizeof(message_rev), 0, (struct sockaddr *) &client, sizeof (client));
-            return ;
-        }
+        //SEND RESPONSE
+        i = sendto(sd, (char*)&message_rev, sizeof(message_rev), 0, (struct sockaddr *) &client, sizeof (client));
 
+        close(sd);
     }
-
-    close(sd);
 }
