@@ -1,6 +1,7 @@
 package controller;
 
 import model.adts.MyIDictionary;
+import model.state.FileTableData;
 import model.state.PrgState;
 
 import java.util.Collection;
@@ -17,5 +18,6 @@ public interface IController {
     String display(PrgState state);
     String display(int index);
 
+    public void programEndingFileGarbageCollector(MyIDictionary<Integer, FileTableData> fileTable);
     HashMap<Integer, Integer> conservativeGarbageCollector(MyIDictionary<String, Integer> symTable, MyIDictionary<Integer, Integer> heap);
 }

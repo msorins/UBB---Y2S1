@@ -4,12 +4,14 @@ import exceptions.AdtExceptions;
 import model.adts.MyIDictionary;
 import model.adts.MyIStack;
 import model.adts.MyList;
+import model.state.FileTableData;
 import model.state.PrgState;
 import model.statements.IStmt;
 import repository.IRepository;
 import repository.IRepositoryLog;
 import repository.Repository;
 
+import java.io.IOException;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
@@ -58,6 +60,9 @@ public class Controller implements IController, IRepository {
                     )
             );
         }
+
+        //Close all remaining opened files
+        programEndingFileGarbageCollector(state.getFileTable());
     }
 
     @Override
@@ -79,6 +84,17 @@ public class Controller implements IController, IRepository {
             adtExceptions.printStackTrace();
         }
         return null;
+    }
+
+    @Override
+    public void programEndingFileGarbageCollector(MyIDictionary<Integer, FileTableData> fileTable) {
+        fileTable.entrySet().stream().forEach(elem -> {
+            try {
+                elem.getValue().bufferedReader.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        });
     }
 
     @Override

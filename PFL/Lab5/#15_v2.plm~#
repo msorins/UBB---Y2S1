@@ -1,0 +1,13 @@
+(DEFUN sum(l)
+  (COND
+    ((NULL l) 0)
+    ((NOT (LISTP (CAR l))) (+ (CAR l) (sum (CDR l))))
+    ((LISTP (CAR l)) (+ (sum(CAR l)) (sum(CDR l))))
+  )
+
+)
+
+(SETQ l (LIST 1 (LIST 2 1) (LIST 2 2 2) 1 1 1))
+(SETQ res (sum l))
+(write "evaluatin")
+(write res)

@@ -1,0 +1,16 @@
+; Write a function to return the set of all sublists of a given linear list
+
+(DEFUN subl(l)
+  (COND
+    ((NULL l) NIL)
+    ((LISTP (CAR l))  (CONS (CONS (CAR l) (subl (CAR l))) (subl (CDR l))))
+    ((NOT(LISTP (CAR l)))  (subl (CDR l)))
+  )
+)
+
+(SETQ l (LIST (LIST 1 2 3) (LIST (LIST 4 5) 6)))
+(WRITE l)
+
+(SETQ res (subl l))
+(write "result:")
+(write res)

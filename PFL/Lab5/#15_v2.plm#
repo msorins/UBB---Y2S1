@@ -1,0 +1,19 @@
+(DEFUN sum(l)
+  (COND
+    ((NULL l) 0)
+    ((NUMBER (CAR l)) (+ (CAR l) (sum (CDR l))))
+    ((LISTP (CAR l)) (+ (sum(CAR l)) (sum(CDR l)))) 
+  )
+
+)(DEFUN sum(l)
+  (COND
+    ((NULL l) 0)
+    ((NUMBER (CAR l)) (+ (CAR l) (sum (CDR l))))
+    ((LISTP (CAR l)) (+ (sum(CAR l)) (sum(CDR l)))) 
+  )
+
+)(DEFUN sum(l)
+  (COND
+    ((NULL l) 0)
+    ((NUMBER (CAR l)) (+ 
+

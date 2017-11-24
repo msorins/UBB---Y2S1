@@ -77,6 +77,24 @@ public class Interpreter {
                 )
         );
 
+        IStmt ex8 = new CompStmt(
+                new AssignStmt("v", new ArithExp('+',
+                        new ConstExp(10),
+                        new BooleanExp("<", new ConstExp(2), new ConstExp(6)))),
+                new PrintStmt(new VarExp("v"))
+        );
+
+        IStmt ex9 = new CompStmt(
+                new AssignStmt("v", new ConstExp(6)),
+                new CompStmt(
+                        new WhileStmt(
+                                new ArithExp('-', new VarExp("v"), new ConstExp(4)),
+                                new AssignStmt("v", new ArithExp('-', new VarExp("v"), new ConstExp(1)))),
+                        new PrintStmt(new VarExp("v"))
+                )
+        );
+
+
         Controller controller = new Controller();
         controller.newProgram(ex1);
         controller.newProgram(ex2);
@@ -85,6 +103,8 @@ public class Interpreter {
         controller.newProgram(ex5);
         controller.newProgram(ex6);
         controller.newProgram(ex7);
+        controller.newProgram(ex8);
+        controller.newProgram(ex9);
 
         TextMenu menu = new TextMenu();
         menu.addCommand(new RunInputCommand("1", "Input Statement", controller));
