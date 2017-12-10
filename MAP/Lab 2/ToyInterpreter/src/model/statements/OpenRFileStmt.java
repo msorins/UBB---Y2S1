@@ -46,7 +46,7 @@ public class OpenRFileStmt implements IStmt {
             throw new StatementsExceptions("Error in reading filename: " + filename + ". " + e.toString());
         }
 
-        return state;
+        return null;
     }
 
     @Override

@@ -30,7 +30,7 @@ public class AssignStmt implements IStmt{
         else
             symTbl.insert(id,val);
 
-        return state;
+        return null;
     }
 
 }

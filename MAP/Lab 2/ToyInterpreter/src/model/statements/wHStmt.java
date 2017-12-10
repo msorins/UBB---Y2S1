@@ -33,11 +33,11 @@ public class wHStmt implements IStmt{
             throw new Exception("Variable not found");
         }
 
-        return state;
+        return null;
     }
 
     @Override
     public String toString() {
-        return "NEW("+ varname +", " + exp.toString() +" ) ";
+        return "writeHeap("+ varname +", " + exp.toString() +" ) ";
     }
 }

@@ -11,3 +11,19 @@
 (SETQ l (LIST 1 2 3))
 (SETQ res (sum l))
 (write res)
+
+(defun tests()
+  (setq x (list 1 2 3 3))
+  (assert (equal (sum x) 9 ))
+
+  (setq y (list 0))
+  (assert (equal (sum y) 0 ))
+
+  (setq z (list 1 2 (list 1 2)))
+  (assert (equal (sum z) 6 ))
+
+  (setq w (list 1 2 (list 1 2 (list 1 2))))
+  (assert (equal (sum w) 9 ))
+)
+
+(tests)

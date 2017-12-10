@@ -22,8 +22,7 @@ public class PrintCommand extends Command {
     }
 
     public void printPrograms() {
-        for(int i = 0; i < controller.getPrograms().size(); i++)
-            System.out.println( "" + i + ": " +controller.getProgramAt(i).toString()  );
+        System.out.println( ""  + controller.getPrograms().toString()  );
     }
 
 }

@@ -1,0 +1,7 @@
+CREATE PROCEDURE GetTestRunsRows
+@Nr INT OUT
+AS
+  BEGIN
+    SELECT @NR = COUNT(*)
+    FROM TestRuns
+  END

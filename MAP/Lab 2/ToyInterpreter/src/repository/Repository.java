@@ -30,19 +30,24 @@ public class Repository implements IRepository, IRepositoryLog{
         return programs;
     }
 
-    public PrgState getProgramAt(int index) throws AdtExceptions {
-        return this.programs.getAt(index);
+    @Override
+    public void setPrograms(MyList<PrgState> programs) {
+        this.programs = programs;
     }
 
     @Override
-    public PrgState newProgram(IStmt stmt) {
+    public PrgState addProgram(IStmt stmt) throws Exception {
+        if(programs.size() != 0)
+            throw new Exception("Only one program can be added");
+
         PrgState newProg = new PrgState(
                 new MyStack<>(),
                 new MyDictionary<String, Integer>(),
                 new MyList<Integer>(),
                 stmt,
                 new MyDictionary<Integer, FileTableData>(),
-                new MyDictionary<Integer, Integer>()
+                new MyDictionary<Integer, Integer>(),
+                1
         );
 
         programs.push_back(newProg);
@@ -51,21 +56,21 @@ public class Repository implements IRepository, IRepositoryLog{
     }
 
     @Override
-    public void logPrgStateExec() throws IOException, AdtExceptions {
+    public void logPrgStateExec(PrgState state) throws IOException, AdtExceptions {
         PrintWriter logFile = new PrintWriter(new BufferedWriter(new FileWriter(logFilePath, true)));
-        logFile.append("\n=== LogStart ===\n");
-        for(int i = 0; i < getPrograms().size(); i++) {
-            logFile.append("=== " + i + " ===\n");
-            PrgState crtProg = getPrograms().getAt(i);
-            logFile.append("ExeStack:\n");
-            logFile.append(crtProg.getExeStack().toString() + "\n");
-            logFile.append("SymTable:\n");
-            logFile.append(crtProg.getSymTable().toString() + "\n");
-            logFile.append("Out:\n");
-            logFile.append(crtProg.getOut().toString() + "\n");
-            logFile.append("FileTable:\n");
-            //To add
-        }
+        logFile.append("\n=== Prog Eval (ID "+ state.getId() +") ===\n");
+
+        logFile.append("ExeStack:\n");
+        logFile.append(state.getExeStack().toString() + "\n");
+        logFile.append("SymTable:\n");
+        logFile.append(state.getSymTable().toString() + "\n");
+        logFile.append("Out:\n");
+        logFile.append(state.getOut().toString() + "\n");
+        logFile.append("FileTable:\n");
+        logFile.append(state.getFileTable().toString() + "\n");
+        logFile.append("Heap: \n");
+        logFile.append(state.getHeap().toString() + "\n");
+
         logFile.flush();
     }
 }

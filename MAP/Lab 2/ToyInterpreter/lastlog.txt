@@ -1,0 +1,396 @@
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (v= 10;(NEW(a,  22 ) ;(fork((writeHeap(a,  30 ) ;(v= 32;(print(v);print(a)))) );(print(v);print(a))))) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ v= 10, (NEW(a,  22 ) ;(fork((writeHeap(a,  30 ) ;(v= 32;(print(v);print(a)))) );(print(v);print(a)))) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ v= 10, (NEW(a,  22 ) ;(fork((writeHeap(a,  30 ) ;(v= 32;(print(v);print(a)))) );(print(v);print(a)))) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (NEW(a,  22 ) ;(fork((writeHeap(a,  30 ) ;(v= 32;(print(v);print(a)))) );(print(v);print(a)))) ]
+SymTable:
+{ v: 10 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (NEW(a,  22 ) ;(fork((writeHeap(a,  30 ) ;(v= 32;(print(v);print(a)))) );(print(v);print(a)))) ]
+SymTable:
+{ v: 10 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ NEW(a,  22 ) , (fork((writeHeap(a,  30 ) ;(v= 32;(print(v);print(a)))) );(print(v);print(a))) ]
+SymTable:
+{ v: 10 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ NEW(a,  22 ) , (fork((writeHeap(a,  30 ) ;(v= 32;(print(v);print(a)))) );(print(v);print(a))) ]
+SymTable:
+{ v: 10 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (fork((writeHeap(a,  30 ) ;(v= 32;(print(v);print(a)))) );(print(v);print(a))) ]
+SymTable:
+{ a: 1, v: 10 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 22 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (fork((writeHeap(a,  30 ) ;(v= 32;(print(v);print(a)))) );(print(v);print(a))) ]
+SymTable:
+{ a: 1, v: 10 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 22 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ fork((writeHeap(a,  30 ) ;(v= 32;(print(v);print(a)))) ), (print(v);print(a)) ]
+SymTable:
+{ a: 1, v: 10 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 22 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ fork((writeHeap(a,  30 ) ;(v= 32;(print(v);print(a)))) ), (print(v);print(a)) ]
+SymTable:
+{ a: 1, v: 10 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 22 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (print(v);print(a)) ]
+SymTable:
+{ a: 1, v: 10 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 22 }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ (writeHeap(a,  30 ) ;(v= 32;(print(v);print(a)))) ]
+SymTable:
+{ a: 1, v: 10 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 22 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (print(v);print(a)) ]
+SymTable:
+{ a: 1, v: 10 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 22 }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ (writeHeap(a,  30 ) ;(v= 32;(print(v);print(a)))) ]
+SymTable:
+{ a: 1, v: 10 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 22 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ print(v), print(a) ]
+SymTable:
+{ a: 1, v: 10 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 22 }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ writeHeap(a,  30 ) , (v= 32;(print(v);print(a))) ]
+SymTable:
+{ a: 1, v: 10 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 22 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ print(v), print(a) ]
+SymTable:
+{ a: 1, v: 10 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 22 }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ writeHeap(a,  30 ) , (v= 32;(print(v);print(a))) ]
+SymTable:
+{ a: 1, v: 10 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 22 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ print(a) ]
+SymTable:
+{ a: 1, v: 10 }
+Out:
+10 
+FileTable:
+{  }
+Heap: 
+{ 1: 30 }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ (v= 32;(print(v);print(a))) ]
+SymTable:
+{ a: 1, v: 10 }
+Out:
+10 
+FileTable:
+{  }
+Heap: 
+{ 1: 30 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ print(a) ]
+SymTable:
+{ a: 1, v: 10 }
+Out:
+10 
+FileTable:
+{  }
+Heap: 
+{ 1: 30 }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ (v= 32;(print(v);print(a))) ]
+SymTable:
+{ a: 1, v: 10 }
+Out:
+10 
+FileTable:
+{  }
+Heap: 
+{ 1: 30 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+{ a: 1, v: 10 }
+Out:
+10 30 
+FileTable:
+{  }
+Heap: 
+{ 1: 30 }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ v= 32, (print(v);print(a)) ]
+SymTable:
+{ a: 1, v: 10 }
+Out:
+10 30 
+FileTable:
+{  }
+Heap: 
+{ 1: 30 }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ v= 32, (print(v);print(a)) ]
+SymTable:
+{ a: 1, v: 10 }
+Out:
+10 30 
+FileTable:
+{  }
+Heap: 
+{ 1: 30 }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ (print(v);print(a)) ]
+SymTable:
+{ a: 1, v: 32 }
+Out:
+10 30 
+FileTable:
+{  }
+Heap: 
+{ 1: 30 }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ (print(v);print(a)) ]
+SymTable:
+{ a: 1, v: 32 }
+Out:
+10 30 
+FileTable:
+{  }
+Heap: 
+{ 1: 30 }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ print(v), print(a) ]
+SymTable:
+{ a: 1, v: 32 }
+Out:
+10 30 
+FileTable:
+{  }
+Heap: 
+{ 1: 30 }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ print(v), print(a) ]
+SymTable:
+{ a: 1, v: 32 }
+Out:
+10 30 
+FileTable:
+{  }
+Heap: 
+{ 1: 30 }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ print(a) ]
+SymTable:
+{ a: 1, v: 32 }
+Out:
+10 30 32 
+FileTable:
+{  }
+Heap: 
+{ 1: 30 }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ print(a) ]
+SymTable:
+{ a: 1, v: 32 }
+Out:
+10 30 32 
+FileTable:
+{  }
+Heap: 
+{ 1: 30 }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[  ]
+SymTable:
+{ a: 1, v: 32 }
+Out:
+10 30 32 30 
+FileTable:
+{  }
+Heap: 
+{ 1: 30 }

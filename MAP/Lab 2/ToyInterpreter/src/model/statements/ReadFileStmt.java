@@ -48,7 +48,7 @@ public class ReadFileStmt implements IStmt {
         else
             symTbl.insert(var_name, readValue);
 
-        return state;
+        return null;
     }
 
     @Override

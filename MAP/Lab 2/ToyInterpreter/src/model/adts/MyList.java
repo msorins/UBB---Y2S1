@@ -2,6 +2,7 @@ package model.adts;
 
 import exceptions.AdtExceptions;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class MyList<T> implements  MyIList<T>{
@@ -9,6 +10,10 @@ public class MyList<T> implements  MyIList<T>{
 
     public MyList() {
         data = new ArrayList<T>();
+    }
+
+    public MyList(ArrayList<T> dt) {
+        data = dt;
     }
 
     @Override
@@ -61,5 +66,9 @@ public class MyList<T> implements  MyIList<T>{
             res += data.get(i) + " ";
 
         return res;
+    }
+
+    public ArrayList<T> getData() {
+        return data;
     }
 }

@@ -25,7 +25,7 @@ public class IfStmt implements IStmt{
         } else {
             exeStack.push(elseS);
         }
-        return state;
+        return null;
     }
 
     @Override

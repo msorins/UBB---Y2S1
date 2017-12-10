@@ -31,7 +31,7 @@ public class NewStmt implements IStmt{
         //Store the heap location in sym tab
         symTbl.update(varname, heapLocation);
 
-        return state;
+        return null;
     }
 
     @Override

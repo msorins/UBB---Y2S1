@@ -9,6 +9,6 @@ import java.io.IOException;
 
 public interface IRepository {
     MyList<PrgState> getPrograms();
-    PrgState getProgramAt(int index) throws AdtExceptions;
-    PrgState newProgram(IStmt stmt);
+    void setPrograms(MyList<PrgState> programs);
+    PrgState addProgram(IStmt stmt) throws Exception;
 }

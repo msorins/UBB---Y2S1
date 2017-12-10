@@ -16,8 +16,8 @@ public class RunInputCommand extends Command {
     }
 
     @Override
-    public void execute() {
-        controller.newProgram(inputStatement());
+    public void execute() throws Exception {
+        controller.addProgram(inputStatement());
     }
 
     private IStmt inputStatement() {

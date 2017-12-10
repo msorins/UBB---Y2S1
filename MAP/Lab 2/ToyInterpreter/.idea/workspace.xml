@@ -2,16 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c80858e1-0967-40f8-98dd-e5be645c6c47" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/model/expressions/BooleanExp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/model/statements/WhileStmt.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/model/statements/ForkStmt.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/da" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dada" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ToyInterpreter/Interpreter.class" afterPath="$PROJECT_DIR$/out/production/ToyInterpreter/Interpreter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ToyInterpreter/controller/Controller.class" afterPath="$PROJECT_DIR$/out/production/ToyInterpreter/controller/Controller.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ToyInterpreter/controller/IController.class" afterPath="$PROJECT_DIR$/out/production/ToyInterpreter/controller/IController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Databases/Lab4/ChangeVersionProc.sql" afterPath="$PROJECT_DIR$/../../../Databases/Lab4/ChangeVersionProc.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ToyInterpreter/model/adts/MyList.class" afterPath="$PROJECT_DIR$/out/production/ToyInterpreter/model/adts/MyList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ToyInterpreter/model/state/PrgState.class" afterPath="$PROJECT_DIR$/out/production/ToyInterpreter/model/state/PrgState.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ToyInterpreter/model/statements/AssignStmt.class" afterPath="$PROJECT_DIR$/out/production/ToyInterpreter/model/statements/AssignStmt.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ToyInterpreter/model/statements/CloseRFileStmt.class" afterPath="$PROJECT_DIR$/out/production/ToyInterpreter/model/statements/CloseRFileStmt.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ToyInterpreter/model/statements/CompStmt.class" afterPath="$PROJECT_DIR$/out/production/ToyInterpreter/model/statements/CompStmt.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ToyInterpreter/model/statements/IfStmt.class" afterPath="$PROJECT_DIR$/out/production/ToyInterpreter/model/statements/IfStmt.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ToyInterpreter/model/statements/NewStmt.class" afterPath="$PROJECT_DIR$/out/production/ToyInterpreter/model/statements/NewStmt.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ToyInterpreter/model/statements/OpenRFileStmt.class" afterPath="$PROJECT_DIR$/out/production/ToyInterpreter/model/statements/OpenRFileStmt.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ToyInterpreter/model/statements/PrintStmt.class" afterPath="$PROJECT_DIR$/out/production/ToyInterpreter/model/statements/PrintStmt.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ToyInterpreter/model/statements/ReadFileStmt.class" afterPath="$PROJECT_DIR$/out/production/ToyInterpreter/model/statements/ReadFileStmt.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ToyInterpreter/model/statements/WhileStmt.class" afterPath="$PROJECT_DIR$/out/production/ToyInterpreter/model/statements/WhileStmt.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ToyInterpreter/model/statements/wHStmt.class" afterPath="$PROJECT_DIR$/out/production/ToyInterpreter/model/statements/wHStmt.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ToyInterpreter/repository/IRepository.class" afterPath="$PROJECT_DIR$/out/production/ToyInterpreter/repository/IRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ToyInterpreter/repository/IRepositoryLog.class" afterPath="$PROJECT_DIR$/out/production/ToyInterpreter/repository/IRepositoryLog.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ToyInterpreter/repository/Repository.class" afterPath="$PROJECT_DIR$/out/production/ToyInterpreter/repository/Repository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ToyInterpreter/view/View.class" afterPath="$PROJECT_DIR$/out/production/ToyInterpreter/view/View.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ToyInterpreter/view/commands/PrintCommand.class" afterPath="$PROJECT_DIR$/out/production/ToyInterpreter/view/commands/PrintCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ToyInterpreter/view/commands/RunAllStepsCommand.class" afterPath="$PROJECT_DIR$/out/production/ToyInterpreter/view/commands/RunAllStepsCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ToyInterpreter/view/commands/RunInputCommand.class" afterPath="$PROJECT_DIR$/out/production/ToyInterpreter/view/commands/RunInputCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ToyInterpreter/view/commands/RunOneStepCommand.class" afterPath="$PROJECT_DIR$/out/production/ToyInterpreter/view/commands/RunOneStepCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Databases/Lab3/TvShowQueries.sql" afterPath="$PROJECT_DIR$/../../../Databases/Lab3/TvShowQueries.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Databases/Lab4/GetVersionProc.sql" afterPath="$PROJECT_DIR$/../../../Databases/Lab4/GetVersionProc.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Interpreter.java" afterPath="$PROJECT_DIR$/src/Interpreter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/Controller.java" afterPath="$PROJECT_DIR$/src/controller/Controller.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/IController.java" afterPath="$PROJECT_DIR$/src/controller/IController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/adts/MyIList.java" afterPath="$PROJECT_DIR$/src/model/adts/MyIList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/adts/MyList.java" afterPath="$PROJECT_DIR$/src/model/adts/MyList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/state/PrgState.java" afterPath="$PROJECT_DIR$/src/model/state/PrgState.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/statements/AssignStmt.java" afterPath="$PROJECT_DIR$/src/model/statements/AssignStmt.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/statements/CloseRFileStmt.java" afterPath="$PROJECT_DIR$/src/model/statements/CloseRFileStmt.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/statements/CompStmt.java" afterPath="$PROJECT_DIR$/src/model/statements/CompStmt.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/statements/IfStmt.java" afterPath="$PROJECT_DIR$/src/model/statements/IfStmt.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/statements/NewStmt.java" afterPath="$PROJECT_DIR$/src/model/statements/NewStmt.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/statements/OpenRFileStmt.java" afterPath="$PROJECT_DIR$/src/model/statements/OpenRFileStmt.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/statements/PrintStmt.java" afterPath="$PROJECT_DIR$/src/model/statements/PrintStmt.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/statements/ReadFileStmt.java" afterPath="$PROJECT_DIR$/src/model/statements/ReadFileStmt.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/statements/WhileStmt.java" afterPath="$PROJECT_DIR$/src/model/statements/WhileStmt.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/statements/wHStmt.java" afterPath="$PROJECT_DIR$/src/model/statements/wHStmt.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/repository/IRepository.java" afterPath="$PROJECT_DIR$/src/repository/IRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/repository/IRepositoryLog.java" afterPath="$PROJECT_DIR$/src/repository/IRepositoryLog.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/repository/Repository.java" afterPath="$PROJECT_DIR$/src/repository/Repository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/View.java" afterPath="$PROJECT_DIR$/src/view/View.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/commands/PrintCommand.java" afterPath="$PROJECT_DIR$/src/view/commands/PrintCommand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/commands/RunAllStepsCommand.java" afterPath="$PROJECT_DIR$/src/view/commands/RunAllStepsCommand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/commands/RunInputCommand.java" afterPath="$PROJECT_DIR$/src/view/commands/RunInputCommand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/commands/RunOneStepCommand.java" afterPath="$PROJECT_DIR$/src/view/commands/RunOneStepCommand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../PFL/Lab5/15_v1.plm" afterPath="$PROJECT_DIR$/../../../PFL/Lab5/15_v1.plm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../PFL/Lab5/15_v2.plm" afterPath="$PROJECT_DIR$/../../../PFL/Lab5/15_v2.plm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../PFL/Lab5/15_v3.plm" afterPath="$PROJECT_DIR$/../../../PFL/Lab5/15_v3.plm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../PFL/Lab5/15_v4.plm" afterPath="$PROJECT_DIR$/../../../PFL/Lab5/15_v4.plm" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,28 +80,8 @@
       <file leaf-file-name="Controller.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/controller/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="90" column="38" lean-forward="false" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VarExp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/expressions/VarExp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BooleanExp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/expressions/BooleanExp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="29" />
+            <state relative-caret-position="15">
+              <caret line="86" column="28" lean-forward="false" selection-start-line="85" selection-start-column="12" selection-end-line="86" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,59 +89,88 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArithExp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/expressions/ArithExp.java">
+      <file leaf-file-name="Interpreter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Interpreter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="1515">
+              <caret line="105" column="51" lean-forward="false" selection-start-line="105" selection-start-column="34" selection-end-line="105" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controller/IController.java">
+      <file leaf-file-name="IRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/repository/IRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="49" lean-forward="false" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+            <state relative-caret-position="60">
+              <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lastlog.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lastlog.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1335">
+              <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Repository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/repository/Repository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="39" column="32" lean-forward="false" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrgState.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/state/PrgState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="52" column="21" lean-forward="false" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+              <folding>
+                <element signature="e#1283#1284#0" expanded="true" />
+                <element signature="e#1328#1329#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ForkStmt.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/statements/ForkStmt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="31" column="15" lean-forward="false" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#269#270#0" expanded="true" />
+                <element signature="e#301#302#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyDictionary.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/adts/MyDictionary.java">
+      <file leaf-file-name="IfStmt.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/statements/IfStmt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="92" column="16" lean-forward="false" selection-start-line="92" selection-start-column="16" selection-end-line="92" selection-end-column="19" />
-              <folding>
-                <element signature="method#erase#0;class#MyDictionary#0" expanded="false" />
-                <element signature="method#get#0;class#MyDictionary#0" expanded="false" />
-                <element signature="method#toString#0;class#MyDictionary#0" expanded="false" />
-                <element signature="e#1857#1858#0" expanded="true" />
-                <element signature="e#1895#1896#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OpenRFileStmt.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/statements/OpenRFileStmt.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="25" column="44" lean-forward="false" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+            <state relative-caret-position="390">
+              <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CloseRFileStmt.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/statements/CloseRFileStmt.java">
+      <file leaf-file-name="CompStmt.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/statements/CompStmt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="24" column="23" lean-forward="false" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+            <state relative-caret-position="270">
+              <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -120,21 +180,7 @@
         <entry file="file://$PROJECT_DIR$/src/model/statements/WhileStmt.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#730#731#0" expanded="true" />
-                <element signature="e#813#814#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Interpreter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Interpreter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
-              <caret line="118" column="0" lean-forward="true" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+              <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -163,6 +209,19 @@
       <find>Assign</find>
       <find>setData</find>
       <find>entry</find>
+      <find>PrgState</find>
+      <find>originalProgram</find>
+      <find>oneStep</find>
+      <find>repo.setPrgList(prgList);prg</find>
+      <find>set</find>
+      <find>input the op</find>
+      <find>Input the</find>
+      <find>display</find>
+      <find>10 30</find>
+      <find>removeComple</find>
+      <find>prgList</find>
+      <find>.add</find>
+      <find>newExeStack</find>
     </findStrings>
     <replaceStrings>
       <replace>Integer</replace>
@@ -179,57 +238,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/model/adts/MyIList.java" />
-        <option value="$PROJECT_DIR$/src/model/adts/MyIStack.java" />
-        <option value="$PROJECT_DIR$/src/exceptions/AdtExceptions.java" />
         <option value="$PROJECT_DIR$/src/exceptions/ExpressionExceptions.java" />
         <option value="$PROJECT_DIR$/src/exceptions/StatementsExceptions.java" />
-        <option value="$PROJECT_DIR$/src/model/adts/MyList.java" />
         <option value="$PROJECT_DIR$/src/model/adts/MyStack.java" />
         <option value="$PROJECT_DIR$/src/tests/adts/TestList.java" />
         <option value="$PROJECT_DIR$/src/tests/adts/TestStack.java" />
-        <option value="$PROJECT_DIR$/src/repository/IRepository.java" />
-        <option value="$PROJECT_DIR$/src/repository/IRepositoryLog.java" />
         <option value="$PROJECT_DIR$/src/model/statements/OpenRFile.java" />
         <option value="$PROJECT_DIR$/src/model/state/FileTableData.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/view/commands/RunExampleCommand.java" />
         <option value="$PROJECT_DIR$/src/view/commands/ExitCommand.java" />
         <option value="$PROJECT_DIR$/src/view/commands/Command.java" />
-        <option value="$PROJECT_DIR$/src/view/commands/PrintCommand.java" />
-        <option value="$PROJECT_DIR$/src/view/commands/RunAllStepsCommand.java" />
-        <option value="$PROJECT_DIR$/src/view/commands/RunInputCommand.java" />
-        <option value="$PROJECT_DIR$/src/view/commands/RunOneStepCommand.java" />
-        <option value="$PROJECT_DIR$/src/view/View.java" />
         <option value="$PROJECT_DIR$/logs/log3.txt" />
-        <option value="$PROJECT_DIR$/src/model/statements/OpenRFileStmt.java" />
-        <option value="$PROJECT_DIR$/src/repository/Repository.java" />
         <option value="$PROJECT_DIR$/src/model/adts/MyHeap.java" />
         <option value="$PROJECT_DIR$/src/tests/adts/TestDictionary.java" />
         <option value="$PROJECT_DIR$/src/view/menu/TextMenu.java" />
-        <option value="$PROJECT_DIR$/src/model/state/PrgState.java" />
         <option value="$PROJECT_DIR$/src/model/statements/rHStmt.java" />
         <option value="$PROJECT_DIR$/src/model/expressions/IExp.java" />
         <option value="$PROJECT_DIR$/src/model/expressions/VarExp.java" />
         <option value="$PROJECT_DIR$/src/model/expressions/ArithExp.java" />
         <option value="$PROJECT_DIR$/src/model/expressions/ConstExp.java" />
-        <option value="$PROJECT_DIR$/src/model/statements/PrintStmt.java" />
-        <option value="$PROJECT_DIR$/src/model/statements/CloseRFileStmt.java" />
-        <option value="$PROJECT_DIR$/src/model/statements/NewStmt.java" />
-        <option value="$PROJECT_DIR$/src/model/statements/ReadFileStmt.java" />
-        <option value="$PROJECT_DIR$/src/model/statements/AssignStmt.java" />
-        <option value="$PROJECT_DIR$/src/model/statements/IfStmt.java" />
         <option value="$PROJECT_DIR$/src/model/expressions/rHExp.java" />
         <option value="$PROJECT_DIR$/src/model/expressions/wHExp.java" />
-        <option value="$PROJECT_DIR$/src/model/statements/wHStmt.java" />
         <option value="$PROJECT_DIR$/src/model/adts/MyIDictionary.java" />
         <option value="$PROJECT_DIR$/src/model/adts/MyDictionary.java" />
         <option value="$PROJECT_DIR$/src/model/expressions/LtExp.java" />
         <option value="$PROJECT_DIR$/src/model/expressions/BooleanExp.java" />
-        <option value="$PROJECT_DIR$/src/Interpreter.java" />
+        <option value="$PROJECT_DIR$/src/repository/IRepositoryLog.java" />
+        <option value="$PROJECT_DIR$/src/repository/IRepository.java" />
+        <option value="$PROJECT_DIR$/src/model/statements/AssignStmt.java" />
+        <option value="$PROJECT_DIR$/src/model/statements/CloseRFileStmt.java" />
+        <option value="$PROJECT_DIR$/src/model/statements/CompStmt.java" />
+        <option value="$PROJECT_DIR$/src/model/statements/IfStmt.java" />
+        <option value="$PROJECT_DIR$/src/model/statements/NewStmt.java" />
+        <option value="$PROJECT_DIR$/src/model/statements/OpenRFileStmt.java" />
+        <option value="$PROJECT_DIR$/src/model/statements/ReadFileStmt.java" />
         <option value="$PROJECT_DIR$/src/model/statements/WhileStmt.java" />
+        <option value="$PROJECT_DIR$/src/model/adts/MyIList.java" />
+        <option value="$PROJECT_DIR$/src/view/commands/PrintCommand.java" />
+        <option value="$PROJECT_DIR$/src/view/commands/RunOneStepCommand.java" />
+        <option value="$PROJECT_DIR$/src/view/commands/RunInputCommand.java" />
+        <option value="$PROJECT_DIR$/src/model/adts/MyList.java" />
+        <option value="$PROJECT_DIR$/src/view/commands/RunAllStepsCommand.java" />
+        <option value="$PROJECT_DIR$/src/view/View.java" />
         <option value="$PROJECT_DIR$/src/controller/IController.java" />
+        <option value="$PROJECT_DIR$/src/model/statements/PrintStmt.java" />
+        <option value="$PROJECT_DIR$/src/model/statements/wHStmt.java" />
         <option value="$PROJECT_DIR$/src/controller/Controller.java" />
+        <option value="$PROJECT_DIR$/src/repository/Repository.java" />
+        <option value="$PROJECT_DIR$/src/model/state/PrgState.java" />
+        <option value="$PROJECT_DIR$/src/model/statements/ForkStmt.java" />
+        <option value="$PROJECT_DIR$/src/Interpreter.java" />
       </list>
     </option>
   </component>
@@ -259,6 +318,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -308,6 +368,13 @@
               <item name="ToyInterpreter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="state" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ToyInterpreter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ToyInterpreter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
               <item name="statements" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -316,14 +383,32 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="repository" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ToyInterpreter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ToyInterpreter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ToyInterpreter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ToyInterpreter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ToyInterpreter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ToyInterpreter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="commands" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -587,6 +672,15 @@
       <workItem from="1510166770770" duration="1325000" />
       <workItem from="1510906702574" duration="5627000" />
       <workItem from="1510914158931" duration="1616000" />
+      <workItem from="1511516819038" duration="347000" />
+      <workItem from="1511526865837" duration="3251000" />
+      <workItem from="1511709750114" duration="3818000" />
+      <workItem from="1511713826454" duration="5184000" />
+      <workItem from="1511794008885" duration="334000" />
+      <workItem from="1511796387347" duration="29000" />
+      <workItem from="1511850414573" duration="86000" />
+      <workItem from="1512729482725" duration="1052000" />
+      <workItem from="1512907978535" duration="8000" />
     </task>
     <servers />
   </component>
@@ -623,15 +717,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57887000" />
+    <option name="totallyTimeSpent" value="71996000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -649,14 +741,15 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.443" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297619" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -667,128 +760,23 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="21" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/view/View.java</url>
+          <line>132</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="42" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="d" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/tests/adts/TestList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="95" column="16" lean-forward="false" selection-start-line="95" selection-start-column="16" selection-end-line="95" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/repository/IRepositoryLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/files/test.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/commands/RunExampleCommand.java" />
-    <entry file="file://$PROJECT_DIR$/src/view/commands/RunInputCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ToyInterpreter.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/log3.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="30" column="12" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/exceptions/ExpressionExceptions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="43" lean-forward="true" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/commands/Command.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/commands/PrintCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/commands/RunAllStepsCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/commands/RunOneStepCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="31" column="12" lean-forward="false" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/state/FileTableData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/adts/MyHeap.java" />
-    <entry file="file://$PROJECT_DIR$/src/view/menu/TextMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/adts/MyStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/adts/TestDictionary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/statements/rHStmt.java" />
-    <entry file="file://$PROJECT_DIR$/da" />
-    <entry file="file://$PROJECT_DIR$/src/model/adts/MyIList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="15" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/expressions/wHExp.java" />
     <entry file="file://$PROJECT_DIR$/src/model/adts/MyIDictionary.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -807,13 +795,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="942">
-          <caret line="722" column="9" lean-forward="false" selection-start-line="722" selection-start-column="9" selection-end-line="723" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/log" />
     <entry file="file://$PROJECT_DIR$/src/model/expressions/rHExp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -821,52 +803,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/statements/NewStmt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="15" lean-forward="false" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/state/PrgState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding>
-            <element signature="e#1605#1606#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/exceptions/AdtExceptions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/statements/IStmt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/statements/wHStmt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="23" column="10" lean-forward="false" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/statements/IfStmt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -874,10 +814,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="12" column="53" lean-forward="false" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
-          <folding>
-            <element signature="e#297#298#0" expanded="false" />
-            <element signature="e#330#331#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -885,7 +821,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -893,88 +828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/statements/ReadFileStmt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/statements/PrintStmt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" column="53" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="35" column="77" lean-forward="false" selection-start-line="35" selection-start-column="77" selection-end-line="35" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/statements/CompStmt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/repository/IRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/repository/Repository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="44" column="52" lean-forward="false" selection-start-line="44" selection-start-column="52" selection-end-line="44" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/statements/AssignStmt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="25" column="44" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="25" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/statements/OpenRFileStmt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="25" column="44" lean-forward="false" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/statements/CloseRFileStmt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="24" column="23" lean-forward="false" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/IController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="49" lean-forward="false" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -992,60 +845,321 @@
     <entry file="file://$PROJECT_DIR$/src/model/expressions/VarExp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/expressions/BooleanExp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/repository/IRepositoryLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/commands/RunOneStepCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="e#832#833#0" expanded="false" />
+            <element signature="e#906#907#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/commands/RunInputCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/adts/MyList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="70" column="35" lean-forward="false" selection-start-line="70" selection-start-column="35" selection-end-line="70" selection-end-column="35" />
+          <folding>
+            <element signature="e#1547#1548#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/commands/PrintCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="e#562#563#0" expanded="false" />
+            <element signature="e#642#643#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/menu/TextMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/adts/MyIList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="29" lean-forward="false" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2" />
+    <entry file="file://$PROJECT_DIR$/src/controller/IController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mproc.log" />
+    <entry file="file://$PROJECT_DIR$/src/view/commands/RunAllStepsCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/statements/IStmt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/statements/CloseRFileStmt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="38" column="19" lean-forward="false" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/statements/AssignStmt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" column="46" lean-forward="false" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v2.log" />
+    <entry file="file://$PROJECT_DIR$/src/model/statements/wHStmt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="40" column="25" lean-forward="false" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/statements/PrintStmt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/statements/OpenRFileStmt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="48" column="19" lean-forward="false" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/statements/NewStmt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="33" column="20" lean-forward="false" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="48" column="9" lean-forward="false" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/statements/ReadFileStmt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="50" column="19" lean-forward="false" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2103">
+          <caret line="36" column="56" lean-forward="false" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/da" />
+    <entry file="file://$PROJECT_DIR$/finalLog.txt" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4245">
+          <caret line="306" column="12" lean-forward="false" selection-start-line="306" selection-start-column="12" selection-end-line="306" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dsada" />
+    <entry file="file://$PROJECT_DIR$/src/model/adts/MyDictionary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="96" column="16" lean-forward="false" selection-start-line="96" selection-start-column="16" selection-end-line="96" selection-end-column="16" />
+          <folding>
+            <element signature="method#erase#0;class#MyDictionary#0" expanded="false" />
+            <element signature="method#get#0;class#MyDictionary#0" expanded="false" />
+            <element signature="method#toString#0;class#MyDictionary#0" expanded="false" />
+            <element signature="e#1954#1955#0" expanded="true" />
+            <element signature="e#1984#1985#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/adts/MyStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="e#656#657#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex10.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1845">
+          <caret line="123" column="20" lean-forward="false" selection-start-line="123" selection-start-column="20" selection-end-line="123" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lastlog.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1335">
+          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Interpreter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="118" column="0" lean-forward="true" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+        <state relative-caret-position="1515">
+          <caret line="105" column="51" lean-forward="false" selection-start-line="105" selection-start-column="34" selection-end-line="105" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/adts/MyDictionary.java">
+    <entry file="file://$PROJECT_DIR$/src/repository/IRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="92" column="16" lean-forward="false" selection-start-line="92" selection-start-column="16" selection-end-line="92" selection-end-column="19" />
+        <state relative-caret-position="60">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/repository/Repository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="39" column="32" lean-forward="false" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/statements/ForkStmt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="31" column="15" lean-forward="false" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="34" />
           <folding>
-            <element signature="method#erase#0;class#MyDictionary#0" expanded="false" />
-            <element signature="method#get#0;class#MyDictionary#0" expanded="false" />
-            <element signature="method#toString#0;class#MyDictionary#0" expanded="false" />
-            <element signature="e#1857#1858#0" expanded="true" />
-            <element signature="e#1895#1896#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/expressions/BooleanExp.java">
+    <entry file="file://$PROJECT_DIR$/src/model/statements/IfStmt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="390">
+          <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/statements/CompStmt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/statements/WhileStmt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="44" />
+          <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/state/PrgState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="52" column="21" lean-forward="false" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#730#731#0" expanded="true" />
-            <element signature="e#813#814#0" expanded="true" />
+            <element signature="e#1283#1284#0" expanded="true" />
+            <element signature="e#1328#1329#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="90" column="38" lean-forward="false" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="38" />
-          <folding />
+        <state relative-caret-position="15">
+          <caret line="86" column="28" lean-forward="false" selection-start-line="85" selection-start-column="12" selection-end-line="86" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

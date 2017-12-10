@@ -1,7 +1,9 @@
 package view.commands;
 
 import controller.Controller;
+import model.state.PrgState;
 
+import java.util.List;
 import java.util.Scanner;
 
 public class RunOneStepCommand extends Command {
@@ -25,10 +27,10 @@ public class RunOneStepCommand extends Command {
     }
 
     private void executeOneStepAt(int index) throws Exception {
-        controller.oneStep( controller.getProgramAt(index) );
+        controller.oneStepForAll((List<PrgState>) controller.getPrograms());
     }
 
     private void printProgramAt(int index) {
-        System.out.println( controller.getProgramAt(index).toString()  );
+        System.out.println( controller.getPrograms().toString()  );
     }
 }

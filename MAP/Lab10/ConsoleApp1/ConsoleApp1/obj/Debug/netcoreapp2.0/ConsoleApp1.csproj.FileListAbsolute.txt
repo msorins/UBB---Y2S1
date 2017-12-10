@@ -1,0 +1,11 @@
+Y:\Desktop\Y2S2\MAP\Lab10\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.0\ConsoleApp1.deps.json
+Y:\Desktop\Y2S2\MAP\Lab10\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.0\ConsoleApp1.runtimeconfig.json
+Y:\Desktop\Y2S2\MAP\Lab10\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.0\ConsoleApp1.runtimeconfig.dev.json
+Y:\Desktop\Y2S2\MAP\Lab10\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.0\ConsoleApp1.dll
+Y:\Desktop\Y2S2\MAP\Lab10\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.0\ConsoleApp1.pdb
+Y:\Desktop\Y2S2\MAP\Lab10\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.0\ConsoleApp1.csprojResolveAssemblyReference.cache
+Y:\Desktop\Y2S2\MAP\Lab10\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+Y:\Desktop\Y2S2\MAP\Lab10\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.0\ConsoleApp1.AssemblyInfoInputs.cache
+Y:\Desktop\Y2S2\MAP\Lab10\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.0\ConsoleApp1.AssemblyInfo.cs
+Y:\Desktop\Y2S2\MAP\Lab10\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.0\ConsoleApp1.dll
+Y:\Desktop\Y2S2\MAP\Lab10\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.0\ConsoleApp1.pdb

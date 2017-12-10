@@ -1,9 +1,10 @@
 ; Write a function to insert an element E on the n-th position of a linear list.
 
+
 (defun insertn(l e n crt)
   (COND
     ((NULL l) NIL)
-    ((eq crt n) (CONS e (CONS (CAR l) (insertn (CDR l) e n (+ crt 1) ) ) ) ) 
+    ((eq crt n) (CONS e (CONS (CAR l) (insertn (CDR l) e n (+ crt 1) ) ) ) )
     ((not (eq crt n)) (CONS (CAR l) (insertn (CDR l) e n (+ crt 1) ) ) )
   )
 )
@@ -11,3 +12,12 @@
 (write 121313)
 (setq l (list 1 2 3 4 5 6))
 (write (insertn l 99 3 1))
+
+(defun tests()
+  (setq x (list 1 2 3 4 5 6))
+  (assert (equal (insertn x 99 3 1) (list 1 2 99 3 4 5 6) ))
+  (assert (equal (insertn x 99 1 1) (list 99 1 2 3 4 5 6) ))
+  (assert (equal (insertn x 99 4 1) (list 1 2 3 99 4 5 6) ))
+)
+
+(tests)

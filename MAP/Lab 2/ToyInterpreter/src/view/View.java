@@ -5,11 +5,13 @@ import model.expressions.ArithExp;
 import model.expressions.ConstExp;
 import model.expressions.IExp;
 import model.expressions.VarExp;
+import model.state.PrgState;
 import model.statements.*;
 import repository.Repository;
 import view.commands.*;
 import view.menu.TextMenu;
 
+import java.util.List;
 import java.util.Scanner;
 
 public class View {
@@ -39,8 +41,8 @@ public class View {
         menu.addCommand(new ExitCommand("5", "Exit", controller));
 
     }
-    public void newProgram(IStmt stmt) {
-        controller.newProgram(stmt);
+    public void newProgram(IStmt stmt) throws Exception {
+        controller.addProgram(stmt);
     }
 
     public IStmt inputStatement() {
@@ -98,22 +100,18 @@ public class View {
         return null;
     }
 
-    public void executeOneStepAt(int index) throws Exception {
-        controller.oneStep( controller.getProgramAt(index) );
+    public void executeOneStep() throws Exception {
+        controller.oneStepForAll((List<PrgState>) controller.getPrograms());
     }
 
-    public void executeAllStepsAt(int index) throws Exception {
-        controller.allSteps( controller.getProgramAt(index) );
+    public void executeAllSteps() throws Exception {
+        controller.allStep();
     }
 
     public void printPrograms() {
-        for(int i = 0; i < controller.getPrograms().size(); i++)
-            System.out.println( "" + i + ": " +controller.getProgramAt(i).toString()  );
+        System.out.println( "" +controller.getPrograms().toString()  );
     }
 
-    public void printProgramAt(int index) {
-        System.out.println( controller.getProgramAt(index).toString()  );
-    }
 
     public void starProg() throws Exception {
         while(true) {
@@ -122,20 +120,18 @@ public class View {
             int index;
             switch (cmd) {
                 case 1:
-                    controller.newProgram(inputStatement());
+                    controller.addProgram(inputStatement());
                     break;
                 case 2:
                     printPrograms();
                     break;
                 case 3:
-                    index = getNr("index: ");
-                    executeOneStepAt(index);
-                    printProgramAt(index);
+                    executeOneStep();
+                    printPrograms();
                     break;
                 case 4:
-                    index = getNr("index: ");
-                    executeAllStepsAt(index);
-                    printProgramAt(index);
+                    executeAllSteps();
+                    printPrograms();
                     break;
                 default:
                     return;
@@ -146,7 +142,7 @@ public class View {
     private void printMenu() {
         String str;
         str  = "\n1. Inpput Statement \n";
-        str += "2. View Programs \n";
+        str += "2. View Program \n";
         str += "3. One step evaluation \n";
         str += "4. Complete evaluation \n";
         str += "5. Exit ";

@@ -1,7 +1,9 @@
 package view.commands;
 
 import controller.Controller;
+import model.state.PrgState;
 
+import java.util.List;
 import java.util.Scanner;
 
 public class RunAllStepsCommand extends Command {
@@ -12,9 +14,8 @@ public class RunAllStepsCommand extends Command {
 
     @Override
     public void execute() throws Exception {
-        int index = getNr("index: ");
-        executeAllStepsAt(index);
-        printProgramAt(index);
+        executeAllSteps();
+        printProgram();
     }
 
     private int getNr(String msg) {
@@ -24,15 +25,15 @@ public class RunAllStepsCommand extends Command {
         return sc.nextInt();
     }
 
-    private void executeOneStepAt(int index) throws Exception {
-        controller.oneStep( controller.getProgramAt(index) );
+    private void executeOneStep() throws Exception {
+        controller.oneStepForAll((List<PrgState>) controller.getPrograms().getData());
     }
 
-    private void printProgramAt(int index) {
-        System.out.println( controller.getProgramAt(index).toString()  );
+    private void printProgram() {
+        System.out.println( controller.getPrograms().toString()  );
     }
 
-    private void executeAllStepsAt(int index) throws Exception {
-        controller.allSteps( controller.getProgramAt(index) );
+    private void executeAllSteps() throws Exception {
+        controller.allStep();
     }
 }

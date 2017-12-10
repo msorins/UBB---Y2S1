@@ -14,3 +14,14 @@
 (SETQ res (subl l))
 (write "result:")
 (write res)
+
+(defun tests()
+  (setq x (list 1 2 3))
+  (assert (equal (subl x) NIL ))
+
+  (setq y (list (list 1) (list 2)))
+  (write (subl y))
+  (assert (equal (subl y) (list (list (list 1)) (list (list 2))) ))
+)
+
+(tests)

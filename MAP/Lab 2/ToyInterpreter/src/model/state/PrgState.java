@@ -8,6 +8,7 @@ import model.statements.IStmt;
 
 import java.io.BufferedReader;
 import java.io.File;
+import java.util.concurrent.ExecutorService;
 
 public class PrgState {
     private MyIStack<IStmt> exeStack;
@@ -16,20 +17,36 @@ public class PrgState {
     private IStmt originalProgram;
     private MyIDictionary<Integer, FileTableData> fileTable;
     private MyIDictionary<Integer, Integer> heap;
+    private int id;
 
-    public PrgState(MyIStack<IStmt> stk, MyIDictionary<String, Integer> symtbl, MyIList<Integer> ot, IStmt prg, MyIDictionary<Integer, FileTableData> ft, MyIDictionary<Integer, Integer> hp){
+    public PrgState(MyIStack<IStmt> stk, MyIDictionary<String, Integer> symtbl, MyIList<Integer> ot, IStmt prg, MyIDictionary<Integer, FileTableData> ft, MyIDictionary<Integer, Integer> hp, int id){
         exeStack = stk;
         symTable = symtbl;
         out = ot;
         originalProgram = prg;
         fileTable = ft;
         heap = hp;
+        this.id = id;
         stk.push(prg);
+    }
+
+    public PrgState oneStep() throws Exception {
+        if(exeStack.empty())
+            throw new Exception("No more operations needed");
+
+        IStmt crtStatement = exeStack.pop();
+
+        PrgState res = crtStatement.execute(this);
+        return res;
+    }
+
+    public boolean isNotCompleted() {
+        return !this.exeStack.empty();
     }
 
     @Override
     public String toString() {
-        return "PrgState { " +
+        return id + ": PrgState { " +
                 "\n \texeStack = " + exeStack.toString() +
                 "\n \tsymTable = " + symTable.toString() +
                 "\n \tout = " + out.toString() +
@@ -85,5 +102,13 @@ public class PrgState {
 
     public void setHeap(MyIDictionary<Integer, Integer> heap) {
         this.heap = heap;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 }

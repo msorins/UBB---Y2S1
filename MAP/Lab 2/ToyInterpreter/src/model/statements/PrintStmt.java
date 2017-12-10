@@ -14,7 +14,8 @@ public class PrintStmt implements IStmt{
     public PrgState execute(PrgState state) throws Exception {
         MyIList<Integer> printState = state.getOut();
         printState.push_back(exp.eval(state.getSymTable(), state.getHeap()) );
-        return state;
+
+        return null;
     }
 
     @Override

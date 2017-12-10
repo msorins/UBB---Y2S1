@@ -2,6 +2,8 @@ package model.adts;
 
 import exceptions.AdtExceptions;
 
+import java.util.ArrayList;
+
 public interface MyIList<T> {
     void push_back(T elem);
     int size();

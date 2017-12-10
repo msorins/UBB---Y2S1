@@ -3,16 +3,16 @@ SELECT Shows.ShowsId, Ratings.value
 FROM Shows
 INNER JOIN Ratings
 	   ON Shows.ShowsId = Ratings.RatingId
-WHERE Ratings.value >= 8         
+WHERE Ratings.value >= 8
 
 #Show how many shows have a certain rating
 SELECT Ratings.value as rating, COUNT(Ratings.value) as count
 FROM Shows
 INNER JOIN Ratings
-	   ON Shows.ShowsId = Ratings.RatingId
+	   ON Shows.ShowsId = Ratings.Rating
 WHERE Ratings.value >= 8
 GROUP BY Ratings.value
-ORDER BY Ratings.value DESC   
+ORDER BY Ratings.value DESC
 
 #How many shows have actors that are from USA
 SELECT Shows.Name, Actors.name, Actors.country
@@ -35,7 +35,7 @@ INNER JOIN Ratings
 		ON Ratings.ShowsId = Shows.ShowsId
 WHERE Directors.episodesDirected >= 20 AND Ratings.value = 10
 
-#How many TV shows have directors that directed more than 20 episodes and 
+#How many TV shows have directors that directed more than 20 episodes and
 #the TV show has rating 10
 SELECT COUNT(DISTINCT(Shows.Name)) as NrOfShows
 FROM Shows
@@ -49,11 +49,11 @@ WHERE Directors.episodesDirected >= 20 AND Ratings.value = 10
 
 #Find actors that can be nominated to EMMY (horror category)
 #An actor can be nominated to an EMMY if:
-#	was chosen by a Director who directed more than 20 episodes in tv shows 
+#	was chosen by a Director who directed more than 20 episodes in tv shows
 #   that has: rating >= 9
 #    		  category = Horror
-#			  views >= 1.000.000						
-#												
+#			  views >= 1.000.000
+#
 
 SELECT Distinct(Actors.name)
 FROM Shows
@@ -68,22 +68,22 @@ INNER JOIN Directors
 INNER JOIN Ratings
 		ON Ratings.ShowsId = Shows.ShowsId
 INNER JOIN Genres
-		ON Genres.GenresId = Shows.GenresId 
+		ON Genres.GenresId = Shows.GenresId
 INNER JOIN Stats
-		ON Stats.StatsId = Shows.ShowsId 
+		ON Stats.StatsId = Shows.ShowsId
 WHERE  Directors.episodesDirected >= 20 and Ratings.value >= 9 and Stats.viewers >= 1000000
 	   AND
 	   Genres.gname like 'Horror'
 
 
 #Show how many episodes does every tv show has in 1st season
-SELECT Shows.Name, 
+SELECT Shows.Name,
 	   (SELECT COUNT(*) EPS
 		FROM Episodes
 		WHERE Episodes.ShowsId = Shows.ShowsId
 		GROUP BY Episodes.Season
 		HAVING Episodes.Season = 1
-		) AS EpsInS01		
+		) AS EpsInS01
 FROM Shows
 
 
@@ -125,4 +125,3 @@ JOIN Shows
 JOIN Stats
   ON Stats.StatsId = Shows.ShowsId
 WHERE TvChannels.name='HBO'
-

@@ -23,7 +23,7 @@ public class WhileStmt implements IStmt{
             stmt.execute(state);
         }
 
-        return state;
+        return null;
     }
 
     @Override

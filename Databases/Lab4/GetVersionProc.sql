@@ -1,5 +1,5 @@
 CREATE PROCEDURE GetVersion
-@Res INT OUT 
+@Res INT OUT
 AS
   BEGIN
   	SELECT TOP 1 @Res = VersNr

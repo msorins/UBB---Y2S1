@@ -13,3 +13,23 @@
 (SETQ b (LIST 3 2 1))
 (SETQ res (SOLVE a b))
 (WRITE res)
+
+(defun tests()
+  (setq x (list 1 2 3))
+  (setq y (list 1 2 3))
+  (assert (equal (solve x y) 1 ))
+
+  (setq a (list ))
+  (setq b (list ))
+  (assert (equal (solve a b) 1 ))
+
+  (setq c (list 1 2 3 4 9 ))
+  (setq d (list 1 2 3 4 5))
+  (assert (equal (solve c d) 0 ))
+
+  (setq e (list 9 4 3 ))
+  (setq f (list 9 6 4 3))
+  (assert (equal (solve e f) 0  ))
+)
+
+(tests)

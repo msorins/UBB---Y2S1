@@ -1,15 +1,13 @@
 import controller.Controller;
 import model.expressions.*;
 import model.statements.*;
-import repository.Repository;
-import view.View;
 import view.commands.*;
 import view.menu.TextMenu;
 
 public class Interpreter {
     public static void main(String[] args) throws Exception {
         IStmt ex1 = new CompStmt(new AssignStmt("v",new ConstExp(2)), new PrintStmt(new VarExp("v")));
-        IStmt ex2 = new CompStmt(new AssignStmt("a", new ArithExp('+',new ConstExp(2),new
+        /*IStmt ex2 = new CompStmt(new AssignStmt("a", new ArithExp('+',new ConstExp(2),new
                 ArithExp('*',new ConstExp(3), new ConstExp(5)))),
                 new CompStmt(new AssignStmt("b",new ArithExp('+',new VarExp("a"), new
                         ConstExp(1))), new PrintStmt(new VarExp("b"))));
@@ -92,19 +90,48 @@ public class Interpreter {
                                 new AssignStmt("v", new ArithExp('-', new VarExp("v"), new ConstExp(1)))),
                         new PrintStmt(new VarExp("v"))
                 )
+        );*/
+
+        IStmt ex10_fork = new CompStmt(
+            new wHStmt("a", new ConstExp(30)),
+            new CompStmt(
+                    new AssignStmt("v", new ConstExp(32)),
+                    new CompStmt(
+                            new PrintStmt(new VarExp("v")),
+                            new PrintStmt(new rHExp("a"))
+                    )
+            )
+        );
+        IStmt ex10 = new CompStmt(
+                new AssignStmt("v", new ConstExp(10)),
+                new CompStmt(
+                        new NewStmt("a", new ConstExp(22)),
+                        new CompStmt(
+                                new ForkStmt(ex10_fork),
+                                new CompStmt(
+                                        new PrintStmt(new VarExp("v")),
+                                        new PrintStmt(new rHExp("a"))
+                                )
+                        )
+                )
         );
 
 
+        IStmt ex11_fork = new CompStmt(
+                new AssignStmt("b", new ConstExp(20)),
+                new PrintStmt(new VarExp("b"))
+        );
+
+        IStmt ex11 = new CompStmt(
+                new AssignStmt("a", new ConstExp(10)),
+                new CompStmt(
+                        new ForkStmt( ex11_fork ),
+                        new PrintStmt(new VarExp("a"))
+                )
+        );
+
         Controller controller = new Controller();
-        controller.newProgram(ex1);
-        controller.newProgram(ex2);
-        controller.newProgram(ex3);
-        controller.newProgram(ex4);
-        controller.newProgram(ex5);
-        controller.newProgram(ex6);
-        controller.newProgram(ex7);
-        controller.newProgram(ex8);
-        controller.newProgram(ex9);
+        controller.addProgram(ex10);
 
         TextMenu menu = new TextMenu();
         menu.addCommand(new RunInputCommand("1", "Input Statement", controller));

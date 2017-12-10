@@ -36,7 +36,7 @@ public class CloseRFileStmt implements IStmt {
         //Delete entry from FileTable
         fileTbl.erase(fileId);
 
-        return state;
+        return null;
     }
 
     @Override
