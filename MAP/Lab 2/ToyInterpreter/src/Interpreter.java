@@ -131,7 +131,7 @@ public class Interpreter {
         );
 
         Controller controller = new Controller();
-        controller.addProgram(ex10);
+        controller.addProgram(ex1);
 
         TextMenu menu = new TextMenu();
         menu.addCommand(new RunInputCommand("1", "Input Statement", controller));

@@ -1,1 +1,0 @@
-(SETQ l (LIST `A (LIST `B) (LIST `C (LIST `D) (LIST `E`))) )

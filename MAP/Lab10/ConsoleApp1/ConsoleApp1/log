@@ -1,0 +1,31 @@
+: PrgState { 
+ 	exeStack = a= 2 -  2, (IF(a) THEN(v= 2)ELSE(v= 3);print(v))
+ 	symTable = 
+ 	out = 
+ 	originalProgram = (a= 2 -  2;(IF(a) THEN(v= 2)ELSE(v= 3);print(v)))
+ } : PrgState { 
+ 	exeStack = (IF(a) THEN(v= 2)ELSE(v= 3);print(v))
+ 	symTable = [a, 0]
+ 	out = 
+ 	originalProgram = (a= 2 -  2;(IF(a) THEN(v= 2)ELSE(v= 3);print(v)))
+ } : PrgState { 
+ 	exeStack = IF(a) THEN(v= 2)ELSE(v= 3), print(v)
+ 	symTable = [a, 0]
+ 	out = 
+ 	originalProgram = (a= 2 -  2;(IF(a) THEN(v= 2)ELSE(v= 3);print(v)))
+ } : PrgState { 
+ 	exeStack = v= 3, print(v)
+ 	symTable = [a, 0]
+ 	out = 
+ 	originalProgram = (a= 2 -  2;(IF(a) THEN(v= 2)ELSE(v= 3);print(v)))
+ } : PrgState { 
+ 	exeStack = print(v)
+ 	symTable = [a, 0]:[v, 3]
+ 	out = 
+ 	originalProgram = (a= 2 -  2;(IF(a) THEN(v= 2)ELSE(v= 3);print(v)))
+ } : PrgState { 
+ 	exeStack = 
+ 	symTable = [a, 0]:[v, 3]
+ 	out = 3
+ 	originalProgram = (a= 2 -  2;(IF(a) THEN(v= 2)ELSE(v= 3);print(v)))
+ } 

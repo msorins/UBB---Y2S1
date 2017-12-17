@@ -1,0 +1,26 @@
+: PrgState { 
+ 	exeStack = openRFileStmt( var_f, testin.txt) , (ReadFileStmt(  0, var_c );print(var_c))
+ 	symTable = 
+ 	out = 
+ 	originalProgram = (openRFileStmt( var_f, testin.txt) ;(ReadFileStmt(  0, var_c );print(var_c)))
+ } : PrgState { 
+ 	exeStack = (ReadFileStmt(  0, var_c );print(var_c))
+ 	symTable = 
+ 	out = 
+ 	originalProgram = (openRFileStmt( var_f, testin.txt) ;(ReadFileStmt(  0, var_c );print(var_c)))
+ } : PrgState { 
+ 	exeStack = ReadFileStmt(  0, var_c ), print(var_c)
+ 	symTable = 
+ 	out = 
+ 	originalProgram = (openRFileStmt( var_f, testin.txt) ;(ReadFileStmt(  0, var_c );print(var_c)))
+ } : PrgState { 
+ 	exeStack = print(var_c)
+ 	symTable = [var_c, 4]
+ 	out = 
+ 	originalProgram = (openRFileStmt( var_f, testin.txt) ;(ReadFileStmt(  0, var_c );print(var_c)))
+ } : PrgState { 
+ 	exeStack = 
+ 	symTable = [var_c, 4]
+ 	out = 4
+ 	originalProgram = (openRFileStmt( var_f, testin.txt) ;(ReadFileStmt(  0, var_c );print(var_c)))
+ } 

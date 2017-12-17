@@ -673,9 +673,9 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "Y:\\Desktop\\Y2S2\\MAP\\Lab10\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
-      "projectName": "ConsoleApp1",
-      "projectPath": "Y:\\Desktop\\Y2S2\\MAP\\Lab10\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "Y:\\Desktop\\Y2S2\\MAP\\Lab10\\ConsoleApp1\\ConsoleApp1\\ToyInterpreter.csproj",
+      "projectName": "ToyInterpreter",
+      "projectPath": "Y:\\Desktop\\Y2S2\\MAP\\Lab10\\ConsoleApp1\\ConsoleApp1\\ToyInterpreter.csproj",
       "packagesPath": "C:\\Users\\so\\.nuget\\packages\\",
       "outputPath": "Y:\\Desktop\\Y2S2\\MAP\\Lab10\\ConsoleApp1\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",

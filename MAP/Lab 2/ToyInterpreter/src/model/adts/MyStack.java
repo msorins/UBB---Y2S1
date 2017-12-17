@@ -53,4 +53,8 @@ public class MyStack<T> implements MyIStack<T> {
 
         return output;
     }
+
+    public LinkedList<T> getData() {
+        return this.data;
+    }
 }

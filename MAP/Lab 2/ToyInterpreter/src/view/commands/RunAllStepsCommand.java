@@ -18,12 +18,6 @@ public class RunAllStepsCommand extends Command {
         printProgram();
     }
 
-    private int getNr(String msg) {
-        System.out.print(msg);
-
-        Scanner sc = new Scanner(System.in);
-        return sc.nextInt();
-    }
 
     private void executeOneStep() throws Exception {
         controller.oneStepForAll((List<PrgState>) controller.getPrograms().getData());

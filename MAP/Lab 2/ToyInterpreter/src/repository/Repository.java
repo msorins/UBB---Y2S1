@@ -20,6 +20,11 @@ public class Repository implements IRepository, IRepositoryLog{
         initRepoLogFilePath();
     }
 
+    public Repository(String path) {
+        this.programs = new MyList<PrgState>();
+        logFilePath = path;
+    }
+
     private void initRepoLogFilePath() {
         System.out.print("Repository log file path: ");
         Scanner sc = new Scanner(System.in);

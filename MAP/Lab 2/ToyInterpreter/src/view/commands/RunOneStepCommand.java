@@ -14,23 +14,16 @@ public class RunOneStepCommand extends Command {
 
     @Override
     public void execute() throws Exception {
-        int index = getNr("index: ");
-        executeOneStepAt(index);
-        printProgramAt(index);
+        executeOneStep();
+        printProgram();
     }
 
-    private int getNr(String msg) {
-        System.out.println(msg);
 
-        Scanner sc = new Scanner(System.in);
-        return sc.nextInt();
+    private void executeOneStep() throws Exception {
+        controller.oneStepForAll( (List<PrgState>)  controller.getPrograms().getData() );
     }
 
-    private void executeOneStepAt(int index) throws Exception {
-        controller.oneStepForAll((List<PrgState>) controller.getPrograms());
-    }
-
-    private void printProgramAt(int index) {
+    private void printProgram() {
         System.out.println( controller.getPrograms().toString()  );
     }
 }

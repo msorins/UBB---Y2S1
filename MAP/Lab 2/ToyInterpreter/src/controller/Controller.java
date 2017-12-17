@@ -30,6 +30,12 @@ public class Controller implements IController, IRepository {
 
     public Controller() {
         repo = new Repository();
+        executor = Executors.newFixedThreadPool(2);
+    }
+
+    public Controller(String log) {
+        repo = new Repository(log);
+        executor = Executors.newFixedThreadPool(2);
     }
 
     @Override
@@ -100,7 +106,6 @@ public class Controller implements IController, IRepository {
     }
 
     public void allStep() throws InterruptedException {
-        executor = Executors.newFixedThreadPool(2);
 
         //remove the completed programs
         List<PrgState> prgList=removeCompletedPrg((List<PrgState>) repo.getPrograms().getData());
