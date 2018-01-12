@@ -1,0 +1,6 @@
+(DEFUN A()
+  (WRITE "HELLO")
+)
+
+(SETF B 'A)
+(B )

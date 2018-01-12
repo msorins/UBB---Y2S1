@@ -1,0 +1,10 @@
+(DEFUN sum(lst)
+  (COND
+    ( (NULL lst) 0)
+    ( (= (MOD (CAR lst) 2) 0)  (+ (CAR lst) (sum (CDR lst) )))
+    ( (= (MOD (CAR lst) 2) 0)  (sum (CDR lst)) )
+  )
+)
+
+(SETQ l (LIST 1 2 3 4 5 6 7 8 9 10))
+(WRITE (sum l))

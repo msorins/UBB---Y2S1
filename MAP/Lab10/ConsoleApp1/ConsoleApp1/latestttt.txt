@@ -1,0 +1,46 @@
+: PrgState { 
+ 	exeStack = openRFileStmt( var_f, testin.txt) , (ReadFileStmt(  0, var_c );(ReadFileStmt(  0, var_d );(res=var_c + var_d;print(res))))
+ 	symTable = 
+ 	out = 
+ 	originalProgram = (openRFileStmt( var_f, testin.txt) ;(ReadFileStmt(  0, var_c );(ReadFileStmt(  0, var_d );(res=var_c + var_d;print(res)))))
+ } : PrgState { 
+ 	exeStack = (ReadFileStmt(  0, var_c );(ReadFileStmt(  0, var_d );(res=var_c + var_d;print(res))))
+ 	symTable = 
+ 	out = 
+ 	originalProgram = (openRFileStmt( var_f, testin.txt) ;(ReadFileStmt(  0, var_c );(ReadFileStmt(  0, var_d );(res=var_c + var_d;print(res)))))
+ } : PrgState { 
+ 	exeStack = ReadFileStmt(  0, var_c ), (ReadFileStmt(  0, var_d );(res=var_c + var_d;print(res)))
+ 	symTable = 
+ 	out = 
+ 	originalProgram = (openRFileStmt( var_f, testin.txt) ;(ReadFileStmt(  0, var_c );(ReadFileStmt(  0, var_d );(res=var_c + var_d;print(res)))))
+ } : PrgState { 
+ 	exeStack = (ReadFileStmt(  0, var_d );(res=var_c + var_d;print(res)))
+ 	symTable = [var_c, 4]
+ 	out = 
+ 	originalProgram = (openRFileStmt( var_f, testin.txt) ;(ReadFileStmt(  0, var_c );(ReadFileStmt(  0, var_d );(res=var_c + var_d;print(res)))))
+ } : PrgState { 
+ 	exeStack = ReadFileStmt(  0, var_d ), (res=var_c + var_d;print(res))
+ 	symTable = [var_c, 4]
+ 	out = 
+ 	originalProgram = (openRFileStmt( var_f, testin.txt) ;(ReadFileStmt(  0, var_c );(ReadFileStmt(  0, var_d );(res=var_c + var_d;print(res)))))
+ } : PrgState { 
+ 	exeStack = (res=var_c + var_d;print(res))
+ 	symTable = [var_c, 4]:[var_d, 6]
+ 	out = 
+ 	originalProgram = (openRFileStmt( var_f, testin.txt) ;(ReadFileStmt(  0, var_c );(ReadFileStmt(  0, var_d );(res=var_c + var_d;print(res)))))
+ } : PrgState { 
+ 	exeStack = res=var_c + var_d, print(res)
+ 	symTable = [var_c, 4]:[var_d, 6]
+ 	out = 
+ 	originalProgram = (openRFileStmt( var_f, testin.txt) ;(ReadFileStmt(  0, var_c );(ReadFileStmt(  0, var_d );(res=var_c + var_d;print(res)))))
+ } : PrgState { 
+ 	exeStack = print(res)
+ 	symTable = [var_c, 4]:[var_d, 6]:[res, 10]
+ 	out = 
+ 	originalProgram = (openRFileStmt( var_f, testin.txt) ;(ReadFileStmt(  0, var_c );(ReadFileStmt(  0, var_d );(res=var_c + var_d;print(res)))))
+ } : PrgState { 
+ 	exeStack = 
+ 	symTable = [var_c, 4]:[var_d, 6]:[res, 10]
+ 	out = 10
+ 	originalProgram = (openRFileStmt( var_f, testin.txt) ;(ReadFileStmt(  0, var_c );(ReadFileStmt(  0, var_d );(res=var_c + var_d;print(res)))))
+ } 

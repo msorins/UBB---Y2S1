@@ -1,0 +1,23 @@
+  (DEFUN JustEven(lst)
+  (COND
+    ( (NULL lst) NIL )
+    ( (LISTP (CAR lst)) (CONS (JustEven (CAR lst)) (JustEven (CDR lst))) )
+    ( (= (MOD (CAR lst) 2) 0)  (CONS (CAR lst) (JustEven (CDR lst))) )
+    ( (= (MOD (CAR lst) 2) 1)  (JustEven (CDR lst)))
+  )
+)
+
+
+
+(DEFUN JustEvenMAP(lst)
+  (COND
+    ( (NULL lst) NIL )
+    ( (LISTP (CAR lst)) (MAPCAR 'JustEvenMAP lst) )
+    ( (= (MOD (CAR lst) 2) 0)  (CAR lst) )
+    ( (= (MOD (CAR lst) 2) 1)  (NIL) )
+  )
+)
+
+
+(SETQ l (LIST 1 2 3 4 5 6 (LIST 1 2 3 4 5 6 7 8 9 10) 7 8 9 10))
+(WRITE (JustEvenMAP l))

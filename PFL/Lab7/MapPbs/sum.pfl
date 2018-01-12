@@ -1,0 +1,20 @@
+(DEFUN SUM(lst)
+  (COND
+    ( (NULL lst) 0)
+    (  T (+ (CAR lst) (SUM (CDR lst))))
+  )
+)
+
+(SETQ l (LIST 1 2 3 4 5))
+(SETQ res (SUM l))
+(WRITE res)
+
+
+(DEFUN ComputeSum(lst)
+  (COND
+    ( T (apply '+ lst))
+  )
+)
+
+(SETQ res2 (ComputeSum l))
+(WRITE res2)

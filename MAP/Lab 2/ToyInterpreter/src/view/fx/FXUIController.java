@@ -75,8 +75,6 @@ public class FXUIController {
     private Text textProgramStates;
 
 
-
-
     @FXML
     private void OneStepButtonAction(ActionEvent e) {
 
@@ -104,7 +102,8 @@ public class FXUIController {
 
         //OnClick for prgStates
         this.prgStatesListView.getSelectionModel().selectedItemProperty().addListener( (observable, oldValue, newValue ) -> {
-            setNewSelectedProgram( this.prgStatesListView.getSelectionModel().getSelectedIndex() );
+            if(this.prgStatesListView.getSelectionModel().getSelectedIndex() != -1)
+                setNewSelectedProgram( this.prgStatesListView.getSelectionModel().getSelectedIndex() );
         });
 
     }
@@ -283,6 +282,8 @@ public class FXUIController {
         this.toyController = new Controller("log.txt");
         try {
             toyController.addProgram(  this.programs.get(index) );
+            selectedProgram = 0;
+            updateAllData();
         } catch (Exception e) {
             e.printStackTrace();
         }

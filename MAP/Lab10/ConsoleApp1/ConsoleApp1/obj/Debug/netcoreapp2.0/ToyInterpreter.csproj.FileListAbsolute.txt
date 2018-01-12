@@ -9,3 +9,14 @@ Y:\Desktop\Y2S2\MAP\Lab10\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.0\ToyInt
 Y:\Desktop\Y2S2\MAP\Lab10\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.0\ToyInterpreter.pdb
 Y:\Desktop\Y2S2\MAP\Lab10\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.0\ToyInterpreter.dll
 Y:\Desktop\Y2S2\MAP\Lab10\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.0\ToyInterpreter.pdb
+\\psf\Home\Desktop\Y2S2\MAP\Lab10\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.0\ToyInterpreter.deps.json
+\\psf\Home\Desktop\Y2S2\MAP\Lab10\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.0\ToyInterpreter.runtimeconfig.json
+\\psf\Home\Desktop\Y2S2\MAP\Lab10\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.0\ToyInterpreter.runtimeconfig.dev.json
+\\psf\Home\Desktop\Y2S2\MAP\Lab10\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.0\ToyInterpreter.dll
+\\psf\Home\Desktop\Y2S2\MAP\Lab10\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.0\ToyInterpreter.pdb
+\\psf\Home\Desktop\Y2S2\MAP\Lab10\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.0\ToyInterpreter.csprojResolveAssemblyReference.cache
+\\psf\Home\Desktop\Y2S2\MAP\Lab10\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.0\ToyInterpreter.csproj.CoreCompileInputs.cache
+\\psf\Home\Desktop\Y2S2\MAP\Lab10\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.0\ToyInterpreter.AssemblyInfoInputs.cache
+\\psf\Home\Desktop\Y2S2\MAP\Lab10\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.0\ToyInterpreter.AssemblyInfo.cs
+\\psf\Home\Desktop\Y2S2\MAP\Lab10\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.0\ToyInterpreter.dll
+\\psf\Home\Desktop\Y2S2\MAP\Lab10\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.0\ToyInterpreter.pdb
