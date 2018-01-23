@@ -1,0 +1,4392 @@
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (v= 6;(while(v -  4){ v=v -  1 };print(v))) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ v= 6, (while(v -  4){ v=v -  1 };print(v)) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ v= 6, (while(v -  4){ v=v -  1 };print(v)) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (while(v -  4){ v=v -  1 };print(v)) ]
+SymTable:
+{ v: 6 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (while(v -  4){ v=v -  1 };print(v)) ]
+SymTable:
+{ v: 6 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ while(v -  4){ v=v -  1 }, print(v) ]
+SymTable:
+{ v: 6 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ while(v -  4){ v=v -  1 }, print(v) ]
+SymTable:
+{ v: 6 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ while(v -  4){ v=v -  1 }, print(v) ]
+SymTable:
+{ v: 5 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ while(v -  4){ v=v -  1 }, print(v) ]
+SymTable:
+{ v: 5 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ while(v -  4){ v=v -  1 }, print(v) ]
+SymTable:
+{ v: 4 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ while(v -  4){ v=v -  1 }, print(v) ]
+SymTable:
+{ v: 4 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ print(v) ]
+SymTable:
+{ v: 4 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ print(v) ]
+SymTable:
+{ v: 4 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+{ v: 4 }
+Out:
+4 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+{ v: 4 }
+Out:
+4 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+{ v: 4 }
+Out:
+4 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (v= 6;(while(v -  4){ v=v -  1 };print(v))) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ v= 6, (while(v -  4){ v=v -  1 };print(v)) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ v= 6, (while(v -  4){ v=v -  1 };print(v)) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (while(v -  4){ v=v -  1 };print(v)) ]
+SymTable:
+{ v: 6 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (while(v -  4){ v=v -  1 };print(v)) ]
+SymTable:
+{ v: 6 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ while(v -  4){ v=v -  1 }, print(v) ]
+SymTable:
+{ v: 6 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ while(v -  4){ v=v -  1 }, print(v) ]
+SymTable:
+{ v: 6 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ while(v -  4){ v=v -  1 }, print(v) ]
+SymTable:
+{ v: 5 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ while(v -  4){ v=v -  1 }, print(v) ]
+SymTable:
+{ v: 5 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ while(v -  4){ v=v -  1 }, print(v) ]
+SymTable:
+{ v: 4 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ while(v -  4){ v=v -  1 }, print(v) ]
+SymTable:
+{ v: 4 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ print(v) ]
+SymTable:
+{ v: 4 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ print(v) ]
+SymTable:
+{ v: 4 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+{ v: 4 }
+Out:
+4 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (v= 10 +  2 <  6;print(v)) ]
+SymTable:
+[{  }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ v= 10 +  2 <  6, print(v) ]
+SymTable:
+[{  }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ v= 10 +  2 <  6, print(v) ]
+SymTable:
+[{  }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ print(v) ]
+SymTable:
+[{ v: 11 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ print(v) ]
+SymTable:
+[{ v: 11 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 11 }]
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (v= 10 +  2 <  6;print(v)) ]
+SymTable:
+[{  }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ v= 10 +  2 <  6, print(v) ]
+SymTable:
+[{  }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ v= 10 +  2 <  6, print(v) ]
+SymTable:
+[{  }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ print(v) ]
+SymTable:
+[{ v: 11 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ print(v) ]
+SymTable:
+[{ v: 11 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 11 }]
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 11 }]
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 11 }]
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (v= 2;print(v)) ]
+SymTable:
+[{  }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ v= 2, print(v) ]
+SymTable:
+[{  }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ v= 2, print(v) ]
+SymTable:
+[{  }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ print(v) ]
+SymTable:
+[{ v: 2 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ print(v) ]
+SymTable:
+[{ v: 2 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2 }]
+Out:
+2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (v= 10 +  2 <  6;print(v)) ]
+SymTable:
+[{  }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ v= 10 +  2 <  6, print(v) ]
+SymTable:
+[{  }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ v= 10 +  2 <  6, print(v) ]
+SymTable:
+[{  }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ print(v) ]
+SymTable:
+[{ v: 11 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ print(v) ]
+SymTable:
+[{ v: 11 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 11 }]
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (a= 10;(fork((b= 20;print(b)) );print(a))) ]
+SymTable:
+[{  }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ a= 10, (fork((b= 20;print(b)) );print(a)) ]
+SymTable:
+[{  }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ a= 10, (fork((b= 20;print(b)) );print(a)) ]
+SymTable:
+[{  }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (fork((b= 20;print(b)) );print(a)) ]
+SymTable:
+[{ a: 10 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (fork((b= 20;print(b)) );print(a)) ]
+SymTable:
+[{ a: 10 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ fork((b= 20;print(b)) ), print(a) ]
+SymTable:
+[{ a: 10 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ fork((b= 20;print(b)) ), print(a) ]
+SymTable:
+[{ a: 10 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ print(a) ]
+SymTable:
+[{ a: 10 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ (b= 20;print(b)) ]
+SymTable:
+[{ a: 10 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (a= 10;(fork((b= 20;print(b)) );print(a))) ]
+SymTable:
+[{  }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ a= 10, (fork((b= 20;print(b)) );print(a)) ]
+SymTable:
+[{  }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ a= 10, (fork((b= 20;print(b)) );print(a)) ]
+SymTable:
+[{  }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (fork((b= 20;print(b)) );print(a)) ]
+SymTable:
+[{ a: 10 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (fork((b= 20;print(b)) );print(a)) ]
+SymTable:
+[{ a: 10 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ fork((b= 20;print(b)) ), print(a) ]
+SymTable:
+[{ a: 10 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ fork((b= 20;print(b)) ), print(a) ]
+SymTable:
+[{ a: 10 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ print(a) ]
+SymTable:
+[{ a: 10 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ (b= 20;print(b)) ]
+SymTable:
+[{ a: 10 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (v= 10;(NEW(a,  22 ) ;(fork((writeHeap(a,  30 ) ;(v= 32;(print(v);print(a)))) );(print(v);print(a))))) ]
+SymTable:
+[{  }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ v= 10, (NEW(a,  22 ) ;(fork((writeHeap(a,  30 ) ;(v= 32;(print(v);print(a)))) );(print(v);print(a)))) ]
+SymTable:
+[{  }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ v= 10, (NEW(a,  22 ) ;(fork((writeHeap(a,  30 ) ;(v= 32;(print(v);print(a)))) );(print(v);print(a)))) ]
+SymTable:
+[{  }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (NEW(a,  22 ) ;(fork((writeHeap(a,  30 ) ;(v= 32;(print(v);print(a)))) );(print(v);print(a)))) ]
+SymTable:
+[{ v: 10 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (NEW(a,  22 ) ;(fork((writeHeap(a,  30 ) ;(v= 32;(print(v);print(a)))) );(print(v);print(a)))) ]
+SymTable:
+[{ v: 10 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ NEW(a,  22 ) , (fork((writeHeap(a,  30 ) ;(v= 32;(print(v);print(a)))) );(print(v);print(a))) ]
+SymTable:
+[{ v: 10 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ NEW(a,  22 ) , (fork((writeHeap(a,  30 ) ;(v= 32;(print(v);print(a)))) );(print(v);print(a))) ]
+SymTable:
+[{ v: 10 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (fork((writeHeap(a,  30 ) ;(v= 32;(print(v);print(a)))) );(print(v);print(a))) ]
+SymTable:
+[{ a: 1, v: 10 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 22 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (fork((writeHeap(a,  30 ) ;(v= 32;(print(v);print(a)))) );(print(v);print(a))) ]
+SymTable:
+[{ a: 1, v: 10 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 22 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ fork((writeHeap(a,  30 ) ;(v= 32;(print(v);print(a)))) ), (print(v);print(a)) ]
+SymTable:
+[{ a: 1, v: 10 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 22 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ fork((writeHeap(a,  30 ) ;(v= 32;(print(v);print(a)))) ), (print(v);print(a)) ]
+SymTable:
+[{ a: 1, v: 10 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 22 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (print(v);print(a)) ]
+SymTable:
+[{ a: 1, v: 10 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 22 }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ (writeHeap(a,  30 ) ;(v= 32;(print(v);print(a)))) ]
+SymTable:
+[{ a: 1, v: 10 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 22 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (a= 10;(fork((b= 20;print(b)) );print(a))) ]
+SymTable:
+[{  }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ a= 10, (fork((b= 20;print(b)) );print(a)) ]
+SymTable:
+[{  }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ a= 10, (fork((b= 20;print(b)) );print(a)) ]
+SymTable:
+[{  }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (fork((b= 20;print(b)) );print(a)) ]
+SymTable:
+[{ a: 10 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (fork((b= 20;print(b)) );print(a)) ]
+SymTable:
+[{ a: 10 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ fork((b= 20;print(b)) ), print(a) ]
+SymTable:
+[{ a: 10 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ fork((b= 20;print(b)) ), print(a) ]
+SymTable:
+[{ a: 10 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ print(a) ]
+SymTable:
+[{ a: 10 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ (b= 20;print(b)) ]
+SymTable:
+[{ a: 10 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (a= 10;(fork((b= 20;print(b)) );print(a))) ]
+SymTable:
+[{  }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ a= 10, (fork((b= 20;print(b)) );print(a)) ]
+SymTable:
+[{  }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ a= 10, (fork((b= 20;print(b)) );print(a)) ]
+SymTable:
+[{  }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (fork((b= 20;print(b)) );print(a)) ]
+SymTable:
+[{ a: 10 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (fork((b= 20;print(b)) );print(a)) ]
+SymTable:
+[{ a: 10 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ fork((b= 20;print(b)) ), print(a) ]
+SymTable:
+[{ a: 10 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ fork((b= 20;print(b)) ), print(a) ]
+SymTable:
+[{ a: 10 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ print(a) ]
+SymTable:
+[{ a: 10 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ (b= 20;print(b)) ]
+SymTable:
+[{ a: 10 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (v= 10;(NEW(a,  22 ) ;(fork((writeHeap(a,  30 ) ;(v= 32;(print(v);print(a)))) );(print(v);print(a))))) ]
+SymTable:
+[{  }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ v= 10, (NEW(a,  22 ) ;(fork((writeHeap(a,  30 ) ;(v= 32;(print(v);print(a)))) );(print(v);print(a)))) ]
+SymTable:
+[{  }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ v= 10, (NEW(a,  22 ) ;(fork((writeHeap(a,  30 ) ;(v= 32;(print(v);print(a)))) );(print(v);print(a)))) ]
+SymTable:
+[{  }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (NEW(a,  22 ) ;(fork((writeHeap(a,  30 ) ;(v= 32;(print(v);print(a)))) );(print(v);print(a)))) ]
+SymTable:
+[{ v: 10 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (NEW(a,  22 ) ;(fork((writeHeap(a,  30 ) ;(v= 32;(print(v);print(a)))) );(print(v);print(a)))) ]
+SymTable:
+[{ v: 10 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ NEW(a,  22 ) , (fork((writeHeap(a,  30 ) ;(v= 32;(print(v);print(a)))) );(print(v);print(a))) ]
+SymTable:
+[{ v: 10 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ NEW(a,  22 ) , (fork((writeHeap(a,  30 ) ;(v= 32;(print(v);print(a)))) );(print(v);print(a))) ]
+SymTable:
+[{ v: 10 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (fork((writeHeap(a,  30 ) ;(v= 32;(print(v);print(a)))) );(print(v);print(a))) ]
+SymTable:
+[{ a: 1, v: 10 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 22 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (fork((writeHeap(a,  30 ) ;(v= 32;(print(v);print(a)))) );(print(v);print(a))) ]
+SymTable:
+[{ a: 1, v: 10 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 22 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ fork((writeHeap(a,  30 ) ;(v= 32;(print(v);print(a)))) ), (print(v);print(a)) ]
+SymTable:
+[{ a: 1, v: 10 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 22 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ fork((writeHeap(a,  30 ) ;(v= 32;(print(v);print(a)))) ), (print(v);print(a)) ]
+SymTable:
+[{ a: 1, v: 10 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 22 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (print(v);print(a)) ]
+SymTable:
+[{ a: 1, v: 10 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 22 }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ (writeHeap(a,  30 ) ;(v= 32;(print(v);print(a)))) ]
+SymTable:
+[{ a: 1, v: 10 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 22 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (print(v);print(a)) ]
+SymTable:
+[{ a: 1, v: 10 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 22 }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ (writeHeap(a,  30 ) ;(v= 32;(print(v);print(a)))) ]
+SymTable:
+[{ a: 1, v: 10 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 22 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ print(v), print(a) ]
+SymTable:
+[{ a: 1, v: 10 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 22 }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ writeHeap(a,  30 ) , (v= 32;(print(v);print(a))) ]
+SymTable:
+[{ a: 1, v: 10 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 22 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ print(v), print(a) ]
+SymTable:
+[{ a: 1, v: 10 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 22 }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ writeHeap(a,  30 ) , (v= 32;(print(v);print(a))) ]
+SymTable:
+[{ a: 1, v: 10 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 22 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ print(a) ]
+SymTable:
+[{ a: 1, v: 10 }]
+Out:
+10 
+FileTable:
+{  }
+Heap: 
+{ 1: 30 }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ (v= 32;(print(v);print(a))) ]
+SymTable:
+[{ a: 1, v: 10 }]
+Out:
+10 
+FileTable:
+{  }
+Heap: 
+{ 1: 30 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ print(a) ]
+SymTable:
+[{ a: 1, v: 10 }]
+Out:
+10 
+FileTable:
+{  }
+Heap: 
+{ 1: 30 }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ (v= 32;(print(v);print(a))) ]
+SymTable:
+[{ a: 1, v: 10 }]
+Out:
+10 
+FileTable:
+{  }
+Heap: 
+{ 1: 30 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ a: 1, v: 10 }]
+Out:
+10 30 
+FileTable:
+{  }
+Heap: 
+{ 1: 30 }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ v= 32, (print(v);print(a)) ]
+SymTable:
+[{ a: 1, v: 10 }]
+Out:
+10 30 
+FileTable:
+{  }
+Heap: 
+{ 1: 30 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ a: 1, v: 10 }]
+Out:
+10 30 
+FileTable:
+{  }
+Heap: 
+{ 1: 30 }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ v= 32, (print(v);print(a)) ]
+SymTable:
+[{ a: 1, v: 10 }]
+Out:
+10 30 
+FileTable:
+{  }
+Heap: 
+{ 1: 30 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ a: 1, v: 32 }]
+Out:
+10 30 
+FileTable:
+{  }
+Heap: 
+{ 1: 30 }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ (print(v);print(a)) ]
+SymTable:
+[{ a: 1, v: 32 }]
+Out:
+10 30 
+FileTable:
+{  }
+Heap: 
+{ 1: 30 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ a: 1, v: 32 }]
+Out:
+10 30 
+FileTable:
+{  }
+Heap: 
+{ 1: 30 }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ (print(v);print(a)) ]
+SymTable:
+[{ a: 1, v: 32 }]
+Out:
+10 30 
+FileTable:
+{  }
+Heap: 
+{ 1: 30 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ a: 1, v: 32 }]
+Out:
+10 30 
+FileTable:
+{  }
+Heap: 
+{ 1: 30 }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ print(v), print(a) ]
+SymTable:
+[{ a: 1, v: 32 }]
+Out:
+10 30 
+FileTable:
+{  }
+Heap: 
+{ 1: 30 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (v= 10 +  2 <  6;print(v)) ]
+SymTable:
+[{  }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ v= 10 +  2 <  6, print(v) ]
+SymTable:
+[{  }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ v= 10 +  2 <  6, print(v) ]
+SymTable:
+[{  }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ print(v) ]
+SymTable:
+[{ v: 11 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (v= 2;(w= 2;(call sum( [ 10 * v, w]) ;(print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) ))))) ]
+SymTable:
+[{  }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ v= 2, (w= 2;(call sum( [ 10 * v, w]) ;(print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )))) ]
+SymTable:
+[{  }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ v= 2, (w= 2;(call sum( [ 10 * v, w]) ;(print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )))) ]
+SymTable:
+[{  }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (w= 2;(call sum( [ 10 * v, w]) ;(print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )))) ]
+SymTable:
+[{ v: 2 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (w= 2;(call sum( [ 10 * v, w]) ;(print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )))) ]
+SymTable:
+[{ v: 2 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ w= 2, (call sum( [ 10 * v, w]) ;(print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) ))) ]
+SymTable:
+[{ v: 2 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ w= 2, (call sum( [ 10 * v, w]) ;(print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) ))) ]
+SymTable:
+[{ v: 2 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (call sum( [ 10 * v, w]) ;(print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) ))) ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (call sum( [ 10 * v, w]) ;(print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) ))) ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ call sum( [ 10 * v, w]) , (print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )) ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ call sum( [ 10 * v, w]) , (print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )) ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (v=a + b;print(v)), ReturnStmt{}, (print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )) ]
+SymTable:
+[{ v: 2, w: 2 }, { a: 20, b: 2, v: 2, w: 2 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (v=a + b;print(v)), ReturnStmt{}, (print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )) ]
+SymTable:
+[{ v: 2, w: 2 }, { a: 20, b: 2, v: 2, w: 2 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ v=a + b, print(v), ReturnStmt{}, (print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )) ]
+SymTable:
+[{ v: 2, w: 2 }, { a: 20, b: 2, v: 2, w: 2 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ v=a + b, print(v), ReturnStmt{}, (print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )) ]
+SymTable:
+[{ v: 2, w: 2 }, { a: 20, b: 2, v: 2, w: 2 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ print(v), ReturnStmt{}, (print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )) ]
+SymTable:
+[{ v: 2, w: 2 }, { a: 20, b: 2, v: 22, w: 2 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ print(v), ReturnStmt{}, (print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )) ]
+SymTable:
+[{ v: 2, w: 2 }, { a: 20, b: 2, v: 22, w: 2 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ ReturnStmt{}, (print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )) ]
+SymTable:
+[{ v: 2, w: 2 }, { a: 20, b: 2, v: 22, w: 2 }]
+Out:
+22 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ ReturnStmt{}, (print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )) ]
+SymTable:
+[{ v: 2, w: 2 }, { a: 20, b: 2, v: 22, w: 2 }]
+Out:
+22 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )) ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )) ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ print(v), fork((call product( [v, w]) ;call sum( [v, w]) ) ) ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ print(v), fork((call product( [v, w]) ;call sum( [v, w]) ) ) ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ fork((call product( [v, w]) ;call sum( [v, w]) ) ) ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ fork((call product( [v, w]) ;call sum( [v, w]) ) ) ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ (call product( [v, w]) ;call sum( [v, w]) ) ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ (call product( [v, w]) ;call sum( [v, w]) ) ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ call product( [v, w]) , call sum( [v, w])  ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (v= 2;(w= 2;(call sum( [ 10 * v, w]) ;(print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) ))))) ]
+SymTable:
+[{  }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ v= 2, (w= 2;(call sum( [ 10 * v, w]) ;(print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )))) ]
+SymTable:
+[{  }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ v= 2, (w= 2;(call sum( [ 10 * v, w]) ;(print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )))) ]
+SymTable:
+[{  }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (w= 2;(call sum( [ 10 * v, w]) ;(print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )))) ]
+SymTable:
+[{ v: 2 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (w= 2;(call sum( [ 10 * v, w]) ;(print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )))) ]
+SymTable:
+[{ v: 2 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ w= 2, (call sum( [ 10 * v, w]) ;(print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) ))) ]
+SymTable:
+[{ v: 2 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ w= 2, (call sum( [ 10 * v, w]) ;(print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) ))) ]
+SymTable:
+[{ v: 2 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (call sum( [ 10 * v, w]) ;(print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) ))) ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (call sum( [ 10 * v, w]) ;(print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) ))) ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ call sum( [ 10 * v, w]) , (print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )) ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ call sum( [ 10 * v, w]) , (print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )) ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (v=a + b;print(v)), ReturnStmt{}, (print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )) ]
+SymTable:
+[{ v: 2, w: 2 }, { a: 20, b: 2, v: 2, w: 2 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (v=a + b;print(v)), ReturnStmt{}, (print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )) ]
+SymTable:
+[{ v: 2, w: 2 }, { a: 20, b: 2, v: 2, w: 2 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ v=a + b, print(v), ReturnStmt{}, (print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )) ]
+SymTable:
+[{ v: 2, w: 2 }, { a: 20, b: 2, v: 2, w: 2 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ v=a + b, print(v), ReturnStmt{}, (print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )) ]
+SymTable:
+[{ v: 2, w: 2 }, { a: 20, b: 2, v: 2, w: 2 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ print(v), ReturnStmt{}, (print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )) ]
+SymTable:
+[{ v: 2, w: 2 }, { a: 20, b: 2, v: 22, w: 2 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ print(v), ReturnStmt{}, (print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )) ]
+SymTable:
+[{ v: 2, w: 2 }, { a: 20, b: 2, v: 22, w: 2 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ ReturnStmt{}, (print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )) ]
+SymTable:
+[{ v: 2, w: 2 }, { a: 20, b: 2, v: 22, w: 2 }]
+Out:
+22 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ ReturnStmt{}, (print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )) ]
+SymTable:
+[{ v: 2, w: 2 }, { a: 20, b: 2, v: 22, w: 2 }]
+Out:
+22 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )) ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )) ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ print(v), fork((call product( [v, w]) ;call sum( [v, w]) ) ) ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ print(v), fork((call product( [v, w]) ;call sum( [v, w]) ) ) ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ fork((call product( [v, w]) ;call sum( [v, w]) ) ) ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ fork((call product( [v, w]) ;call sum( [v, w]) ) ) ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ (call product( [v, w]) ;call sum( [v, w]) ) ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ (call product( [v, w]) ;call sum( [v, w]) ) ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ call product( [v, w]) , call sum( [v, w])  ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ call product( [v, w]) , call sum( [v, w])  ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ (v=a * b;print(v)), ReturnStmt{}, call sum( [v, w])  ]
+SymTable:
+[{ v: 2, w: 2 }, { a: 2, b: 2, v: 2, w: 2 }]
+Out:
+22 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ (v=a * b;print(v)), ReturnStmt{}, call sum( [v, w])  ]
+SymTable:
+[{ v: 2, w: 2 }, { a: 2, b: 2, v: 2, w: 2 }]
+Out:
+22 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ v=a * b, print(v), ReturnStmt{}, call sum( [v, w])  ]
+SymTable:
+[{ v: 2, w: 2 }, { a: 2, b: 2, v: 2, w: 2 }]
+Out:
+22 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ v=a * b, print(v), ReturnStmt{}, call sum( [v, w])  ]
+SymTable:
+[{ v: 2, w: 2 }, { a: 2, b: 2, v: 2, w: 2 }]
+Out:
+22 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ print(v), ReturnStmt{}, call sum( [v, w])  ]
+SymTable:
+[{ v: 2, w: 2 }, { a: 2, b: 2, v: 4, w: 2 }]
+Out:
+22 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ print(v), ReturnStmt{}, call sum( [v, w])  ]
+SymTable:
+[{ v: 2, w: 2 }, { a: 2, b: 2, v: 4, w: 2 }]
+Out:
+22 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 4 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ ReturnStmt{}, call sum( [v, w])  ]
+SymTable:
+[{ v: 2, w: 2 }, { a: 2, b: 2, v: 4, w: 2 }]
+Out:
+22 2 4 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (v= 2;(w= 2;(call sum( [ 10 * v, w]) ;(print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) ))))) ]
+SymTable:
+[{  }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ v= 2, (w= 2;(call sum( [ 10 * v, w]) ;(print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )))) ]
+SymTable:
+[{  }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ v= 2, (w= 2;(call sum( [ 10 * v, w]) ;(print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )))) ]
+SymTable:
+[{  }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (w= 2;(call sum( [ 10 * v, w]) ;(print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )))) ]
+SymTable:
+[{ v: 2 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (w= 2;(call sum( [ 10 * v, w]) ;(print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )))) ]
+SymTable:
+[{ v: 2 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ w= 2, (call sum( [ 10 * v, w]) ;(print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) ))) ]
+SymTable:
+[{ v: 2 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ w= 2, (call sum( [ 10 * v, w]) ;(print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) ))) ]
+SymTable:
+[{ v: 2 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (call sum( [ 10 * v, w]) ;(print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) ))) ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (call sum( [ 10 * v, w]) ;(print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) ))) ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ call sum( [ 10 * v, w]) , (print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )) ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ call sum( [ 10 * v, w]) , (print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )) ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (v=a + b;print(v)), ReturnStmt{}, (print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )) ]
+SymTable:
+[{ v: 2, w: 2 }, { a: 20, b: 2, v: 2, w: 2 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (v=a + b;print(v)), ReturnStmt{}, (print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )) ]
+SymTable:
+[{ v: 2, w: 2 }, { a: 20, b: 2, v: 2, w: 2 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ v=a + b, print(v), ReturnStmt{}, (print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )) ]
+SymTable:
+[{ v: 2, w: 2 }, { a: 20, b: 2, v: 2, w: 2 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ v=a + b, print(v), ReturnStmt{}, (print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )) ]
+SymTable:
+[{ v: 2, w: 2 }, { a: 20, b: 2, v: 2, w: 2 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ print(v), ReturnStmt{}, (print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )) ]
+SymTable:
+[{ v: 2, w: 2 }, { a: 20, b: 2, v: 22, w: 2 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ print(v), ReturnStmt{}, (print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )) ]
+SymTable:
+[{ v: 2, w: 2 }, { a: 20, b: 2, v: 22, w: 2 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ ReturnStmt{}, (print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )) ]
+SymTable:
+[{ v: 2, w: 2 }, { a: 20, b: 2, v: 22, w: 2 }]
+Out:
+22 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ ReturnStmt{}, (print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )) ]
+SymTable:
+[{ v: 2, w: 2 }, { a: 20, b: 2, v: 22, w: 2 }]
+Out:
+22 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )) ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )) ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ print(v), fork((call product( [v, w]) ;call sum( [v, w]) ) ) ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ print(v), fork((call product( [v, w]) ;call sum( [v, w]) ) ) ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ fork((call product( [v, w]) ;call sum( [v, w]) ) ) ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ fork((call product( [v, w]) ;call sum( [v, w]) ) ) ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ (call product( [v, w]) ;call sum( [v, w]) ) ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ (call product( [v, w]) ;call sum( [v, w]) ) ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ call product( [v, w]) , call sum( [v, w])  ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ call product( [v, w]) , call sum( [v, w])  ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ (v=a * b;print(v)), ReturnStmt{}, call sum( [v, w])  ]
+SymTable:
+[{ v: 2, w: 2 }, { a: 2, b: 2, v: 2, w: 2 }]
+Out:
+22 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ (v=a * b;print(v)), ReturnStmt{}, call sum( [v, w])  ]
+SymTable:
+[{ v: 2, w: 2 }, { a: 2, b: 2, v: 2, w: 2 }]
+Out:
+22 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ v=a * b, print(v), ReturnStmt{}, call sum( [v, w])  ]
+SymTable:
+[{ v: 2, w: 2 }, { a: 2, b: 2, v: 2, w: 2 }]
+Out:
+22 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ v=a * b, print(v), ReturnStmt{}, call sum( [v, w])  ]
+SymTable:
+[{ v: 2, w: 2 }, { a: 2, b: 2, v: 2, w: 2 }]
+Out:
+22 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ print(v), ReturnStmt{}, call sum( [v, w])  ]
+SymTable:
+[{ v: 2, w: 2 }, { a: 2, b: 2, v: 4, w: 2 }]
+Out:
+22 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ print(v), ReturnStmt{}, call sum( [v, w])  ]
+SymTable:
+[{ v: 2, w: 2 }, { a: 2, b: 2, v: 4, w: 2 }]
+Out:
+22 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 4 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ ReturnStmt{}, call sum( [v, w])  ]
+SymTable:
+[{ v: 2, w: 2 }, { a: 2, b: 2, v: 4, w: 2 }]
+Out:
+22 2 4 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 4 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ ReturnStmt{}, call sum( [v, w])  ]
+SymTable:
+[{ v: 2, w: 2 }, { a: 2, b: 2, v: 4, w: 2 }]
+Out:
+22 2 4 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 4 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ call sum( [v, w])  ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 4 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 4 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ call sum( [v, w])  ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 4 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 4 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ (v=a + b;print(v)), ReturnStmt{} ]
+SymTable:
+[{ v: 2, w: 2 }, { a: 2, b: 2, v: 2, w: 2 }]
+Out:
+22 2 4 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 4 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ (v=a + b;print(v)), ReturnStmt{} ]
+SymTable:
+[{ v: 2, w: 2 }, { a: 2, b: 2, v: 2, w: 2 }]
+Out:
+22 2 4 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 4 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ v=a + b, print(v), ReturnStmt{} ]
+SymTable:
+[{ v: 2, w: 2 }, { a: 2, b: 2, v: 2, w: 2 }]
+Out:
+22 2 4 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 4 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ v=a + b, print(v), ReturnStmt{} ]
+SymTable:
+[{ v: 2, w: 2 }, { a: 2, b: 2, v: 2, w: 2 }]
+Out:
+22 2 4 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 4 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ print(v), ReturnStmt{} ]
+SymTable:
+[{ v: 2, w: 2 }, { a: 2, b: 2, v: 4, w: 2 }]
+Out:
+22 2 4 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 4 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ print(v), ReturnStmt{} ]
+SymTable:
+[{ v: 2, w: 2 }, { a: 2, b: 2, v: 4, w: 2 }]
+Out:
+22 2 4 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 4 4 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ ReturnStmt{} ]
+SymTable:
+[{ v: 2, w: 2 }, { a: 2, b: 2, v: 4, w: 2 }]
+Out:
+22 2 4 4 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 4 4 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ ReturnStmt{} ]
+SymTable:
+[{ v: 2, w: 2 }, { a: 2, b: 2, v: 4, w: 2 }]
+Out:
+22 2 4 4 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 4 4 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 4 4 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 4 4 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 4 4 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 4 4 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 2 }]
+Out:
+22 2 4 4 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (v= 2;(w= 5;(call sum( [ 10 * v, w]) ;(print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) ))))) ]
+SymTable:
+[{  }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ v= 2, (w= 5;(call sum( [ 10 * v, w]) ;(print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )))) ]
+SymTable:
+[{  }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ v= 2, (w= 5;(call sum( [ 10 * v, w]) ;(print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )))) ]
+SymTable:
+[{  }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (w= 5;(call sum( [ 10 * v, w]) ;(print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )))) ]
+SymTable:
+[{ v: 2 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (w= 5;(call sum( [ 10 * v, w]) ;(print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )))) ]
+SymTable:
+[{ v: 2 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ w= 5, (call sum( [ 10 * v, w]) ;(print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) ))) ]
+SymTable:
+[{ v: 2 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ w= 5, (call sum( [ 10 * v, w]) ;(print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) ))) ]
+SymTable:
+[{ v: 2 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (call sum( [ 10 * v, w]) ;(print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) ))) ]
+SymTable:
+[{ v: 2, w: 5 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (call sum( [ 10 * v, w]) ;(print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) ))) ]
+SymTable:
+[{ v: 2, w: 5 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ call sum( [ 10 * v, w]) , (print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )) ]
+SymTable:
+[{ v: 2, w: 5 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ call sum( [ 10 * v, w]) , (print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )) ]
+SymTable:
+[{ v: 2, w: 5 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (v=a + b;print(v)), ReturnStmt{}, (print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )) ]
+SymTable:
+[{ v: 2, w: 5 }, { a: 20, b: 5, v: 2, w: 5 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (v=a + b;print(v)), ReturnStmt{}, (print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )) ]
+SymTable:
+[{ v: 2, w: 5 }, { a: 20, b: 5, v: 2, w: 5 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ v=a + b, print(v), ReturnStmt{}, (print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )) ]
+SymTable:
+[{ v: 2, w: 5 }, { a: 20, b: 5, v: 2, w: 5 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ v=a + b, print(v), ReturnStmt{}, (print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )) ]
+SymTable:
+[{ v: 2, w: 5 }, { a: 20, b: 5, v: 2, w: 5 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ print(v), ReturnStmt{}, (print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )) ]
+SymTable:
+[{ v: 2, w: 5 }, { a: 20, b: 5, v: 25, w: 5 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ print(v), ReturnStmt{}, (print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )) ]
+SymTable:
+[{ v: 2, w: 5 }, { a: 20, b: 5, v: 25, w: 5 }]
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ ReturnStmt{}, (print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )) ]
+SymTable:
+[{ v: 2, w: 5 }, { a: 20, b: 5, v: 25, w: 5 }]
+Out:
+25 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ ReturnStmt{}, (print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )) ]
+SymTable:
+[{ v: 2, w: 5 }, { a: 20, b: 5, v: 25, w: 5 }]
+Out:
+25 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )) ]
+SymTable:
+[{ v: 2, w: 5 }]
+Out:
+25 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (print(v);fork((call product( [v, w]) ;call sum( [v, w]) ) )) ]
+SymTable:
+[{ v: 2, w: 5 }]
+Out:
+25 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ print(v), fork((call product( [v, w]) ;call sum( [v, w]) ) ) ]
+SymTable:
+[{ v: 2, w: 5 }]
+Out:
+25 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ print(v), fork((call product( [v, w]) ;call sum( [v, w]) ) ) ]
+SymTable:
+[{ v: 2, w: 5 }]
+Out:
+25 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ fork((call product( [v, w]) ;call sum( [v, w]) ) ) ]
+SymTable:
+[{ v: 2, w: 5 }]
+Out:
+25 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ fork((call product( [v, w]) ;call sum( [v, w]) ) ) ]
+SymTable:
+[{ v: 2, w: 5 }]
+Out:
+25 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 5 }]
+Out:
+25 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ (call product( [v, w]) ;call sum( [v, w]) ) ]
+SymTable:
+[{ v: 2, w: 5 }]
+Out:
+25 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 5 }]
+Out:
+25 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ (call product( [v, w]) ;call sum( [v, w]) ) ]
+SymTable:
+[{ v: 2, w: 5 }]
+Out:
+25 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 5 }]
+Out:
+25 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ call product( [v, w]) , call sum( [v, w])  ]
+SymTable:
+[{ v: 2, w: 5 }]
+Out:
+25 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 5 }]
+Out:
+25 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ call product( [v, w]) , call sum( [v, w])  ]
+SymTable:
+[{ v: 2, w: 5 }]
+Out:
+25 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 5 }]
+Out:
+25 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ (v=a * b;print(v)), ReturnStmt{}, call sum( [v, w])  ]
+SymTable:
+[{ v: 2, w: 5 }, { a: 2, b: 5, v: 2, w: 5 }]
+Out:
+25 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 5 }]
+Out:
+25 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ (v=a * b;print(v)), ReturnStmt{}, call sum( [v, w])  ]
+SymTable:
+[{ v: 2, w: 5 }, { a: 2, b: 5, v: 2, w: 5 }]
+Out:
+25 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 5 }]
+Out:
+25 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ v=a * b, print(v), ReturnStmt{}, call sum( [v, w])  ]
+SymTable:
+[{ v: 2, w: 5 }, { a: 2, b: 5, v: 2, w: 5 }]
+Out:
+25 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 5 }]
+Out:
+25 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ v=a * b, print(v), ReturnStmt{}, call sum( [v, w])  ]
+SymTable:
+[{ v: 2, w: 5 }, { a: 2, b: 5, v: 2, w: 5 }]
+Out:
+25 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 5 }]
+Out:
+25 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ print(v), ReturnStmt{}, call sum( [v, w])  ]
+SymTable:
+[{ v: 2, w: 5 }, { a: 2, b: 5, v: 10, w: 5 }]
+Out:
+25 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 5 }]
+Out:
+25 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ print(v), ReturnStmt{}, call sum( [v, w])  ]
+SymTable:
+[{ v: 2, w: 5 }, { a: 2, b: 5, v: 10, w: 5 }]
+Out:
+25 2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 5 }]
+Out:
+25 2 10 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ ReturnStmt{}, call sum( [v, w])  ]
+SymTable:
+[{ v: 2, w: 5 }, { a: 2, b: 5, v: 10, w: 5 }]
+Out:
+25 2 10 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 5 }]
+Out:
+25 2 10 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ ReturnStmt{}, call sum( [v, w])  ]
+SymTable:
+[{ v: 2, w: 5 }, { a: 2, b: 5, v: 10, w: 5 }]
+Out:
+25 2 10 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 5 }]
+Out:
+25 2 10 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ call sum( [v, w])  ]
+SymTable:
+[{ v: 2, w: 5 }]
+Out:
+25 2 10 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 5 }]
+Out:
+25 2 10 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ call sum( [v, w])  ]
+SymTable:
+[{ v: 2, w: 5 }]
+Out:
+25 2 10 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 5 }]
+Out:
+25 2 10 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ (v=a + b;print(v)), ReturnStmt{} ]
+SymTable:
+[{ v: 2, w: 5 }, { a: 2, b: 5, v: 2, w: 5 }]
+Out:
+25 2 10 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 5 }]
+Out:
+25 2 10 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ (v=a + b;print(v)), ReturnStmt{} ]
+SymTable:
+[{ v: 2, w: 5 }, { a: 2, b: 5, v: 2, w: 5 }]
+Out:
+25 2 10 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 5 }]
+Out:
+25 2 10 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ v=a + b, print(v), ReturnStmt{} ]
+SymTable:
+[{ v: 2, w: 5 }, { a: 2, b: 5, v: 2, w: 5 }]
+Out:
+25 2 10 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 5 }]
+Out:
+25 2 10 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ v=a + b, print(v), ReturnStmt{} ]
+SymTable:
+[{ v: 2, w: 5 }, { a: 2, b: 5, v: 2, w: 5 }]
+Out:
+25 2 10 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 5 }]
+Out:
+25 2 10 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ print(v), ReturnStmt{} ]
+SymTable:
+[{ v: 2, w: 5 }, { a: 2, b: 5, v: 7, w: 5 }]
+Out:
+25 2 10 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 5 }]
+Out:
+25 2 10 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ print(v), ReturnStmt{} ]
+SymTable:
+[{ v: 2, w: 5 }, { a: 2, b: 5, v: 7, w: 5 }]
+Out:
+25 2 10 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 5 }]
+Out:
+25 2 10 7 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ ReturnStmt{} ]
+SymTable:
+[{ v: 2, w: 5 }, { a: 2, b: 5, v: 7, w: 5 }]
+Out:
+25 2 10 7 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 5 }]
+Out:
+25 2 10 7 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ ReturnStmt{} ]
+SymTable:
+[{ v: 2, w: 5 }, { a: 2, b: 5, v: 7, w: 5 }]
+Out:
+25 2 10 7 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 5 }]
+Out:
+25 2 10 7 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[  ]
+SymTable:
+[{ v: 2, w: 5 }]
+Out:
+25 2 10 7 
+FileTable:
+{  }
+Heap: 
+{  }

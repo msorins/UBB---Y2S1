@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="392.0" prefWidth="1302.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.fx.FXUIController">
+   <children>
+      <Button fx:id="oneStepButton" layoutX="274.0" layoutY="358.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="1015.0" text="One Step" />
+      <ListView fx:id="programsList" layoutX="8.0" layoutY="7.0" prefHeight="377.0" prefWidth="261.0" />
+      <Text fill="#6b6969" layoutX="286.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="States:" />
+      <Text fx:id="textProgramStates" layoutX="326.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" />
+      <TableView fx:id="heapTable" layoutX="288.0" layoutY="57.0" prefHeight="131.0" prefWidth="193.0">
+        <columns>
+          <TableColumn fx:id="heapTableAddress" prefWidth="94.87664794921875" text="Address" />
+          <TableColumn fx:id="heapTableValue" prefWidth="98.12335205078125" text="Value" />
+        </columns>
+      </TableView>
+      <Text fill="#6b6969" layoutX="287.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Heap Table:" />
+      <Text fill="#6b6969" layoutX="286.0" layoutY="219.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Out:" />
+      <ListView fx:id="outListView" layoutX="289.0" layoutY="226.0" prefHeight="124.0" prefWidth="189.0" />
+      <TableView fx:id="fileTable" layoutX="550.0" layoutY="57.0" prefHeight="131.0" prefWidth="193.0">
+         <columns>
+            <TableColumn fx:id="fileTableIdentifier" prefWidth="97.36126708984375" text="Identifier" />
+            <TableColumn fx:id="fileTableFileName" prefWidth="94.638671875" text="FileName" />
+         </columns>
+      </TableView>
+      <Text fill="#6b6969" layoutX="550.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FileTable:" />
+      <ListView fx:id="prgStatesListView" layoutX="549.0" layoutY="225.0" prefHeight="124.0" prefWidth="189.0" />
+      <Text fill="#6b6969" layoutX="549.0" layoutY="219.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PrgStates:" />
+      <Text fill="#6b6969" layoutX="800.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SymTable:" />
+      <TableView fx:id="symTable" layoutX="802.0" layoutY="57.0" prefHeight="131.0" prefWidth="193.0">
+         <columns>
+            <TableColumn fx:id="symTableVar" prefWidth="105.64324951171875" text="Var" />
+            <TableColumn fx:id="symTableValue" prefWidth="87.3568115234375" text="Value" />
+         </columns>
+      </TableView>
+      <Text fill="#6b6969" layoutX="804.0" layoutY="218.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ExeStack:" />
+      <ListView fx:id="exeStackListView" layoutX="803.0" layoutY="224.0" prefHeight="124.0" prefWidth="189.0" />
+      <Text fill="#6b6969" layoutX="1020.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ProcTable: " />
+      <TableView id="procTable" fx:id="procTable" layoutX="1013.0" layoutY="57.0" prefHeight="289.0" prefWidth="275.0">
+         <columns>
+            <TableColumn id="ProcTableName" fx:id="procTableName" prefWidth="92.0" text="Name" />
+            <TableColumn id="ProcTableBody" fx:id="procTableBody" prefWidth="182.0" text="Body" />
+         </columns>
+      </TableView>
+   </children>
+</Pane>

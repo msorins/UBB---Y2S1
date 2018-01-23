@@ -1,0 +1,286 @@
+
+=== LogStart ===
+<0>
+ExeStack:
+[ (v= 2;print(v)) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+<1>
+ExeStack:
+[  ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+<2>
+ExeStack:
+[ (a= 2 -  2;(IF(a) THEN(v= 2)ELSE(v= 3);print(v))) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+
+=== LogStart ===
+<0>
+ExeStack:
+[ (v= 2;print(v)) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+<1>
+ExeStack:
+[ (b=a +  1;print(b)) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+<2>
+ExeStack:
+[ (a= 2 -  2;(IF(a) THEN(v= 2)ELSE(v= 3);print(v))) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+
+=== LogStart ===
+<0>
+ExeStack:
+[ (v= 2;print(v)) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+<1>
+ExeStack:
+[  ]
+SymTable:
+{ a: 17 }
+Out:
+
+FileTable:
+<2>
+ExeStack:
+[ (a= 2 -  2;(IF(a) THEN(v= 2)ELSE(v= 3);print(v))) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+
+=== LogStart ===
+<0>
+ExeStack:
+[ (v= 2;print(v)) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+<1>
+ExeStack:
+[ print(b) ]
+SymTable:
+{ a: 17 }
+Out:
+
+FileTable:
+<2>
+ExeStack:
+[ (a= 2 -  2;(IF(a) THEN(v= 2)ELSE(v= 3);print(v))) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+
+=== LogStart ===
+<0>
+ExeStack:
+[ (v= 2;print(v)) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+<1>
+ExeStack:
+[  ]
+SymTable:
+{ a: 17, b: 18 }
+Out:
+
+FileTable:
+<2>
+ExeStack:
+[ (a= 2 -  2;(IF(a) THEN(v= 2)ELSE(v= 3);print(v))) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+
+=== LogStart ===
+<0>
+ExeStack:
+[ (v= 2;print(v)) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+<1>
+ExeStack:
+[  ]
+SymTable:
+{ a: 17, b: 18 }
+Out:
+18 
+FileTable:
+<2>
+ExeStack:
+[  ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+
+=== LogStart ===
+<0>
+ExeStack:
+[ (v= 2;print(v)) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+<1>
+ExeStack:
+[  ]
+SymTable:
+{ a: 17, b: 18 }
+Out:
+18 
+FileTable:
+<2>
+ExeStack:
+[ (IF(a) THEN(v= 2)ELSE(v= 3);print(v)) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+
+=== LogStart ===
+<0>
+ExeStack:
+[ (v= 2;print(v)) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+<1>
+ExeStack:
+[  ]
+SymTable:
+{ a: 17, b: 18 }
+Out:
+18 
+FileTable:
+<2>
+ExeStack:
+[  ]
+SymTable:
+{ a: 0 }
+Out:
+
+FileTable:
+
+=== LogStart ===
+<0>
+ExeStack:
+[ (v= 2;print(v)) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+<1>
+ExeStack:
+[  ]
+SymTable:
+{ a: 17, b: 18 }
+Out:
+18 
+FileTable:
+<2>
+ExeStack:
+[ print(v) ]
+SymTable:
+{ a: 0 }
+Out:
+
+FileTable:
+
+=== LogStart ===
+<0>
+ExeStack:
+[ (v= 2;print(v)) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+<1>
+ExeStack:
+[  ]
+SymTable:
+{ a: 17, b: 18 }
+Out:
+18 
+FileTable:
+<2>
+ExeStack:
+[ print(v) ]
+SymTable:
+{ a: 0 }
+Out:
+
+FileTable:
+
+=== LogStart ===
+<0>
+ExeStack:
+[ (v= 2;print(v)) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+<1>
+ExeStack:
+[  ]
+SymTable:
+{ a: 17, b: 18 }
+Out:
+18 
+FileTable:
+<2>
+ExeStack:
+[  ]
+SymTable:
+{ a: 0, v: 3 }
+Out:
+
+FileTable:

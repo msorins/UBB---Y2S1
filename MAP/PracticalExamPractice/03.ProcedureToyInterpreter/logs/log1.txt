@@ -1,0 +1,105 @@
+ExeStack:
+[ (v= 2;print(v)) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+ExeStack:
+[  ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+ExeStack:
+[ (a= 2 -  2;(IF(a) THEN(v= 2)ELSE(v= 3);print(v))) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+ExeStack:
+[ (v= 2;print(v)) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+ExeStack:
+[ (b=a +  1;print(b)) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+ExeStack:
+[ (a= 2 -  2;(IF(a) THEN(v= 2)ELSE(v= 3);print(v))) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+ExeStack:
+[ (v= 2;print(v)) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+ExeStack:
+[  ]
+SymTable:
+{ a: 17 }
+Out:
+
+FileTable:
+ExeStack:
+[ (a= 2 -  2;(IF(a) THEN(v= 2)ELSE(v= 3);print(v))) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+ExeStack:
+[ (v= 2;print(v)) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+ExeStack:
+[ print(b) ]
+SymTable:
+{ a: 17 }
+Out:
+
+FileTable:
+ExeStack:
+[ (a= 2 -  2;(IF(a) THEN(v= 2)ELSE(v= 3);print(v))) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+ExeStack:
+[ (v= 2;print(v)) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+ExeStack:
+[  ]
+SymTable:
+{ a: 17, b: 18 }
+Out:
+
+FileTable:
+ExeStack:
+[ (a= 2 -  2;(IF(a) THEN(v= 2)ELSE(v= 3);print(v))) ]
+SymTable:
+{  }
+Out:
+
+FileTable:

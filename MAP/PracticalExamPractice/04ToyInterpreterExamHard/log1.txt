@@ -1,0 +1,204 @@
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (a= 10;(fork((b= 20;print(b)) );print(a))) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ a= 10, (fork((b= 20;print(b)) );print(a)) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ a= 10, (fork((b= 20;print(b)) );print(a)) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (fork((b= 20;print(b)) );print(a)) ]
+SymTable:
+{ a: 10 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (fork((b= 20;print(b)) );print(a)) ]
+SymTable:
+{ a: 10 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ fork((b= 20;print(b)) ), print(a) ]
+SymTable:
+{ a: 10 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ fork((b= 20;print(b)) ), print(a) ]
+SymTable:
+{ a: 10 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ print(a) ]
+SymTable:
+{ a: 10 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ (b= 20;print(b)) ]
+SymTable:
+{ a: 10 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ print(a) ]
+SymTable:
+{ a: 10 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ (b= 20;print(b)) ]
+SymTable:
+{ a: 10 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+{ a: 10 }
+Out:
+10 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ b= 20, print(b) ]
+SymTable:
+{ a: 10 }
+Out:
+10 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ b= 20, print(b) ]
+SymTable:
+{ a: 10 }
+Out:
+10 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ print(b) ]
+SymTable:
+{ a: 10, b: 20 }
+Out:
+10 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[ print(b) ]
+SymTable:
+{ a: 10, b: 20 }
+Out:
+10 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 10) ===
+ExeStack:
+[  ]
+SymTable:
+{ a: 10, b: 20 }
+Out:
+10 20 
+FileTable:
+{  }
+Heap: 
+{  }

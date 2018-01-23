@@ -1,0 +1,96 @@
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (v= 2;print(v)) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ v= 2, print(v) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ v= 2, print(v) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ print(v) ]
+SymTable:
+{ v: 2 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ print(v) ]
+SymTable:
+{ v: 2 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+{ v: 2 }
+Out:
+2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+{ v: 2 }
+Out:
+2 
+FileTable:
+{  }
+Heap: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+{ v: 2 }
+Out:
+2 
+FileTable:
+{  }
+Heap: 
+{  }

@@ -1,0 +1,2954 @@
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (v= 2;print(v)) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+LockTable: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ v= 2, print(v) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+LockTable: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ v= 2, print(v) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+LockTable: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ print(v) ]
+SymTable:
+{ v: 2 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+LockTable: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ print(v) ]
+SymTable:
+{ v: 2 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+LockTable: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+{ v: 2 }
+Out:
+2 
+FileTable:
+{  }
+Heap: 
+{  }
+LockTable: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (writeHeap(a,  10 ) ;(NewLock( lck );((lock( lck );(a=a +  1;unlock( lck )));((lock( lck );(a=a +  1;unlock( lck )));((lock( lck );(a=a +  1;unlock( lck )));print(a)))))) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+LockTable: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ writeHeap(a,  10 ) , (NewLock( lck );((lock( lck );(a=a +  1;unlock( lck )));((lock( lck );(a=a +  1;unlock( lck )));((lock( lck );(a=a +  1;unlock( lck )));print(a))))) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+LockTable: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ writeHeap(a,  10 ) , (NewLock( lck );((lock( lck );(a=a +  1;unlock( lck )));((lock( lck );(a=a +  1;unlock( lck )));((lock( lck );(a=a +  1;unlock( lck )));print(a))))) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+LockTable: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (NewLock( lck );((lock( lck );(a=a +  1;unlock( lck )));((lock( lck );(a=a +  1;unlock( lck )));((lock( lck );(a=a +  1;unlock( lck )));print(a))))) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+LockTable: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (NEW(a,  10 ) ;(NewLock( lck );((lock( lck );(a=a +  1;unlock( lck )));((lock( lck );(a=a +  1;unlock( lck )));((lock( lck );(a=a +  1;unlock( lck )));print(a)))))) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+LockTable: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ NEW(a,  10 ) , (NewLock( lck );((lock( lck );(a=a +  1;unlock( lck )));((lock( lck );(a=a +  1;unlock( lck )));((lock( lck );(a=a +  1;unlock( lck )));print(a))))) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+LockTable: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ NEW(a,  10 ) , (NewLock( lck );((lock( lck );(a=a +  1;unlock( lck )));((lock( lck );(a=a +  1;unlock( lck )));((lock( lck );(a=a +  1;unlock( lck )));print(a))))) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+LockTable: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (NewLock( lck );((lock( lck );(a=a +  1;unlock( lck )));((lock( lck );(a=a +  1;unlock( lck )));((lock( lck );(a=a +  1;unlock( lck )));print(a))))) ]
+SymTable:
+{ a: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (NewLock( lck );((lock( lck );(a=a +  1;unlock( lck )));((lock( lck );(a=a +  1;unlock( lck )));((lock( lck );(a=a +  1;unlock( lck )));print(a))))) ]
+SymTable:
+{ a: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ NewLock( lck ), ((lock( lck );(a=a +  1;unlock( lck )));((lock( lck );(a=a +  1;unlock( lck )));((lock( lck );(a=a +  1;unlock( lck )));print(a)))) ]
+SymTable:
+{ a: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ NewLock( lck ), ((lock( lck );(a=a +  1;unlock( lck )));((lock( lck );(a=a +  1;unlock( lck )));((lock( lck );(a=a +  1;unlock( lck )));print(a)))) ]
+SymTable:
+{ a: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ ((lock( lck );(a=a +  1;unlock( lck )));((lock( lck );(a=a +  1;unlock( lck )));((lock( lck );(a=a +  1;unlock( lck )));print(a)))) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ ((lock( lck );(a=a +  1;unlock( lck )));((lock( lck );(a=a +  1;unlock( lck )));((lock( lck );(a=a +  1;unlock( lck )));print(a)))) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (lock( lck );(a=a +  1;unlock( lck ))), ((lock( lck );(a=a +  1;unlock( lck )));((lock( lck );(a=a +  1;unlock( lck )));print(a))) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (lock( lck );(a=a +  1;unlock( lck ))), ((lock( lck );(a=a +  1;unlock( lck )));((lock( lck );(a=a +  1;unlock( lck )));print(a))) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ lock( lck ), (a=a +  1;unlock( lck )), ((lock( lck );(a=a +  1;unlock( lck )));((lock( lck );(a=a +  1;unlock( lck )));print(a))) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ lock( lck ), (a=a +  1;unlock( lck )), ((lock( lck );(a=a +  1;unlock( lck )));((lock( lck );(a=a +  1;unlock( lck )));print(a))) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (a=a +  1;unlock( lck )), ((lock( lck );(a=a +  1;unlock( lck )));((lock( lck );(a=a +  1;unlock( lck )));print(a))) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: 1 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (a=a +  1;unlock( lck )), ((lock( lck );(a=a +  1;unlock( lck )));((lock( lck );(a=a +  1;unlock( lck )));print(a))) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: 1 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ a=a +  1, unlock( lck ), ((lock( lck );(a=a +  1;unlock( lck )));((lock( lck );(a=a +  1;unlock( lck )));print(a))) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: 1 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ a=a +  1, unlock( lck ), ((lock( lck );(a=a +  1;unlock( lck )));((lock( lck );(a=a +  1;unlock( lck )));print(a))) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: 1 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ unlock( lck ), ((lock( lck );(a=a +  1;unlock( lck )));((lock( lck );(a=a +  1;unlock( lck )));print(a))) ]
+SymTable:
+{ a: 11, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: 1 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ unlock( lck ), ((lock( lck );(a=a +  1;unlock( lck )));((lock( lck );(a=a +  1;unlock( lck )));print(a))) ]
+SymTable:
+{ a: 11, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: 1 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ ((lock( lck );(a=a +  1;unlock( lck )));((lock( lck );(a=a +  1;unlock( lck )));print(a))) ]
+SymTable:
+{ a: 11, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ ((lock( lck );(a=a +  1;unlock( lck )));((lock( lck );(a=a +  1;unlock( lck )));print(a))) ]
+SymTable:
+{ a: 11, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (lock( lck );(a=a +  1;unlock( lck ))), ((lock( lck );(a=a +  1;unlock( lck )));print(a)) ]
+SymTable:
+{ a: 11, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (lock( lck );(a=a +  1;unlock( lck ))), ((lock( lck );(a=a +  1;unlock( lck )));print(a)) ]
+SymTable:
+{ a: 11, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ lock( lck ), (a=a +  1;unlock( lck )), ((lock( lck );(a=a +  1;unlock( lck )));print(a)) ]
+SymTable:
+{ a: 11, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ lock( lck ), (a=a +  1;unlock( lck )), ((lock( lck );(a=a +  1;unlock( lck )));print(a)) ]
+SymTable:
+{ a: 11, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (a=a +  1;unlock( lck )), ((lock( lck );(a=a +  1;unlock( lck )));print(a)) ]
+SymTable:
+{ a: 11, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: 1 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (NEW(a,  10 ) ;(NewLock( lck );(fork((lock( lck );(a=a +  1;unlock( lck ))) );(fork((lock( lck );(a=a +  1;unlock( lck ))) );(fork((lock( lck );(a=a +  1;unlock( lck ))) );print(a)))))) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+LockTable: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ NEW(a,  10 ) , (NewLock( lck );(fork((lock( lck );(a=a +  1;unlock( lck ))) );(fork((lock( lck );(a=a +  1;unlock( lck ))) );(fork((lock( lck );(a=a +  1;unlock( lck ))) );print(a))))) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+LockTable: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ NEW(a,  10 ) , (NewLock( lck );(fork((lock( lck );(a=a +  1;unlock( lck ))) );(fork((lock( lck );(a=a +  1;unlock( lck ))) );(fork((lock( lck );(a=a +  1;unlock( lck ))) );print(a))))) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+LockTable: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (NewLock( lck );(fork((lock( lck );(a=a +  1;unlock( lck ))) );(fork((lock( lck );(a=a +  1;unlock( lck ))) );(fork((lock( lck );(a=a +  1;unlock( lck ))) );print(a))))) ]
+SymTable:
+{ a: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (NewLock( lck );(fork((lock( lck );(a=a +  1;unlock( lck ))) );(fork((lock( lck );(a=a +  1;unlock( lck ))) );(fork((lock( lck );(a=a +  1;unlock( lck ))) );print(a))))) ]
+SymTable:
+{ a: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ NewLock( lck ), (fork((lock( lck );(a=a +  1;unlock( lck ))) );(fork((lock( lck );(a=a +  1;unlock( lck ))) );(fork((lock( lck );(a=a +  1;unlock( lck ))) );print(a)))) ]
+SymTable:
+{ a: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ NewLock( lck ), (fork((lock( lck );(a=a +  1;unlock( lck ))) );(fork((lock( lck );(a=a +  1;unlock( lck ))) );(fork((lock( lck );(a=a +  1;unlock( lck ))) );print(a)))) ]
+SymTable:
+{ a: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (fork((lock( lck );(a=a +  1;unlock( lck ))) );(fork((lock( lck );(a=a +  1;unlock( lck ))) );(fork((lock( lck );(a=a +  1;unlock( lck ))) );print(a)))) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (fork((lock( lck );(a=a +  1;unlock( lck ))) );(fork((lock( lck );(a=a +  1;unlock( lck ))) );(fork((lock( lck );(a=a +  1;unlock( lck ))) );print(a)))) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ fork((lock( lck );(a=a +  1;unlock( lck ))) ), (fork((lock( lck );(a=a +  1;unlock( lck ))) );(fork((lock( lck );(a=a +  1;unlock( lck ))) );print(a))) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ fork((lock( lck );(a=a +  1;unlock( lck ))) ), (fork((lock( lck );(a=a +  1;unlock( lck ))) );(fork((lock( lck );(a=a +  1;unlock( lck ))) );print(a))) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (fork((lock( lck );(a=a +  1;unlock( lck ))) );(fork((lock( lck );(a=a +  1;unlock( lck ))) );print(a))) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 21977) ===
+ExeStack:
+[ (lock( lck );(a=a +  1;unlock( lck ))) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (fork((lock( lck );(a=a +  1;unlock( lck ))) );(fork((lock( lck );(a=a +  1;unlock( lck ))) );print(a))) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 21977) ===
+ExeStack:
+[ (lock( lck );(a=a +  1;unlock( lck ))) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ fork((lock( lck );(a=a +  1;unlock( lck ))) ), (fork((lock( lck );(a=a +  1;unlock( lck ))) );print(a)) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 21977) ===
+ExeStack:
+[ lock( lck ), (a=a +  1;unlock( lck )) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ fork((lock( lck );(a=a +  1;unlock( lck ))) ), (fork((lock( lck );(a=a +  1;unlock( lck ))) );print(a)) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 21977) ===
+ExeStack:
+[ lock( lck ), (a=a +  1;unlock( lck )) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (fork((lock( lck );(a=a +  1;unlock( lck ))) );print(a)) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: 21977 }
+
+=== Prog Eval (ID 21977) ===
+ExeStack:
+[ (a=a +  1;unlock( lck )) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: 21977 }
+
+=== Prog Eval (ID 25438) ===
+ExeStack:
+[ (lock( lck );(a=a +  1;unlock( lck ))) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: 21977 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (fork((lock( lck );(a=a +  1;unlock( lck ))) );print(a)) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: 21977 }
+
+=== Prog Eval (ID 21977) ===
+ExeStack:
+[ (a=a +  1;unlock( lck )) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: 21977 }
+
+=== Prog Eval (ID 25438) ===
+ExeStack:
+[ (lock( lck );(a=a +  1;unlock( lck ))) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: 21977 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ fork((lock( lck );(a=a +  1;unlock( lck ))) ), print(a) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: 21977 }
+
+=== Prog Eval (ID 21977) ===
+ExeStack:
+[ a=a +  1, unlock( lck ) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: 21977 }
+
+=== Prog Eval (ID 25438) ===
+ExeStack:
+[ lock( lck ), (a=a +  1;unlock( lck )) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: 21977 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ fork((lock( lck );(a=a +  1;unlock( lck ))) ), print(a) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: 21977 }
+
+=== Prog Eval (ID 21977) ===
+ExeStack:
+[ a=a +  1, unlock( lck ) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: 21977 }
+
+=== Prog Eval (ID 25438) ===
+ExeStack:
+[ lock( lck ), (a=a +  1;unlock( lck )) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: 21977 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ print(a) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: 21977 }
+
+=== Prog Eval (ID 21977) ===
+ExeStack:
+[ unlock( lck ) ]
+SymTable:
+{ a: 11, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: 21977 }
+
+=== Prog Eval (ID 25438) ===
+ExeStack:
+[ lock( lck ), (a=a +  1;unlock( lck )) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: 21977 }
+
+=== Prog Eval (ID 48373) ===
+ExeStack:
+[ (lock( lck );(a=a +  1;unlock( lck ))) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: 21977 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (NEW(a,  10 ) ;(NewLock( lck );(fork((lock( lck );(a=a +  1;unlock( lck ))) );(fork((lock( lck );(a=a +  1;unlock( lck ))) );(fork((lock( lck );(a=a +  1;unlock( lck ))) );print(a)))))) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+LockTable: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ NEW(a,  10 ) , (NewLock( lck );(fork((lock( lck );(a=a +  1;unlock( lck ))) );(fork((lock( lck );(a=a +  1;unlock( lck ))) );(fork((lock( lck );(a=a +  1;unlock( lck ))) );print(a))))) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+LockTable: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ NEW(a,  10 ) , (NewLock( lck );(fork((lock( lck );(a=a +  1;unlock( lck ))) );(fork((lock( lck );(a=a +  1;unlock( lck ))) );(fork((lock( lck );(a=a +  1;unlock( lck ))) );print(a))))) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+LockTable: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (NewLock( lck );(fork((lock( lck );(a=a +  1;unlock( lck ))) );(fork((lock( lck );(a=a +  1;unlock( lck ))) );(fork((lock( lck );(a=a +  1;unlock( lck ))) );print(a))))) ]
+SymTable:
+{ a: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (NewLock( lck );(fork((lock( lck );(a=a +  1;unlock( lck ))) );(fork((lock( lck );(a=a +  1;unlock( lck ))) );(fork((lock( lck );(a=a +  1;unlock( lck ))) );print(a))))) ]
+SymTable:
+{ a: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ NewLock( lck ), (fork((lock( lck );(a=a +  1;unlock( lck ))) );(fork((lock( lck );(a=a +  1;unlock( lck ))) );(fork((lock( lck );(a=a +  1;unlock( lck ))) );print(a)))) ]
+SymTable:
+{ a: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ NewLock( lck ), (fork((lock( lck );(a=a +  1;unlock( lck ))) );(fork((lock( lck );(a=a +  1;unlock( lck ))) );(fork((lock( lck );(a=a +  1;unlock( lck ))) );print(a)))) ]
+SymTable:
+{ a: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (fork((lock( lck );(a=a +  1;unlock( lck ))) );(fork((lock( lck );(a=a +  1;unlock( lck ))) );(fork((lock( lck );(a=a +  1;unlock( lck ))) );print(a)))) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (fork((lock( lck );(a=a +  1;unlock( lck ))) );(fork((lock( lck );(a=a +  1;unlock( lck ))) );(fork((lock( lck );(a=a +  1;unlock( lck ))) );print(a)))) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ fork((lock( lck );(a=a +  1;unlock( lck ))) ), (fork((lock( lck );(a=a +  1;unlock( lck ))) );(fork((lock( lck );(a=a +  1;unlock( lck ))) );print(a))) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ fork((lock( lck );(a=a +  1;unlock( lck ))) ), (fork((lock( lck );(a=a +  1;unlock( lck ))) );(fork((lock( lck );(a=a +  1;unlock( lck ))) );print(a))) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (fork((lock( lck );(a=a +  1;unlock( lck ))) );(fork((lock( lck );(a=a +  1;unlock( lck ))) );print(a))) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 98219) ===
+ExeStack:
+[ (lock( lck );(a=a +  1;unlock( lck ))) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (fork((lock( lck );(a=a +  1;unlock( lck ))) );(fork((lock( lck );(a=a +  1;unlock( lck ))) );print(a))) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 98219) ===
+ExeStack:
+[ (lock( lck );(a=a +  1;unlock( lck ))) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ fork((lock( lck );(a=a +  1;unlock( lck ))) ), (fork((lock( lck );(a=a +  1;unlock( lck ))) );print(a)) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 98219) ===
+ExeStack:
+[ lock( lck ), (a=a +  1;unlock( lck )) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ fork((lock( lck );(a=a +  1;unlock( lck ))) ), (fork((lock( lck );(a=a +  1;unlock( lck ))) );print(a)) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 98219) ===
+ExeStack:
+[ lock( lck ), (a=a +  1;unlock( lck )) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (fork((lock( lck );(a=a +  1;unlock( lck ))) );print(a)) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: 98219 }
+
+=== Prog Eval (ID 98219) ===
+ExeStack:
+[ (a=a +  1;unlock( lck )) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: 98219 }
+
+=== Prog Eval (ID 42527) ===
+ExeStack:
+[ (lock( lck );(a=a +  1;unlock( lck ))) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: 98219 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (fork((lock( lck );(a=a +  1;unlock( lck ))) );print(a)) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: 98219 }
+
+=== Prog Eval (ID 98219) ===
+ExeStack:
+[ (a=a +  1;unlock( lck )) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: 98219 }
+
+=== Prog Eval (ID 42527) ===
+ExeStack:
+[ (lock( lck );(a=a +  1;unlock( lck ))) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: 98219 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ fork((lock( lck );(a=a +  1;unlock( lck ))) ), print(a) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: 98219 }
+
+=== Prog Eval (ID 98219) ===
+ExeStack:
+[ a=a +  1, unlock( lck ) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: 98219 }
+
+=== Prog Eval (ID 42527) ===
+ExeStack:
+[ lock( lck ), (a=a +  1;unlock( lck )) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: 98219 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ fork((lock( lck );(a=a +  1;unlock( lck ))) ), print(a) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: 98219 }
+
+=== Prog Eval (ID 98219) ===
+ExeStack:
+[ a=a +  1, unlock( lck ) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: 98219 }
+
+=== Prog Eval (ID 42527) ===
+ExeStack:
+[ lock( lck ), (a=a +  1;unlock( lck )) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: 98219 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ print(a) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: 98219 }
+
+=== Prog Eval (ID 98219) ===
+ExeStack:
+[ unlock( lck ) ]
+SymTable:
+{ a: 11, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: 98219 }
+
+=== Prog Eval (ID 42527) ===
+ExeStack:
+[ lock( lck ), (a=a +  1;unlock( lck )) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: 98219 }
+
+=== Prog Eval (ID 5863) ===
+ExeStack:
+[ (lock( lck );(a=a +  1;unlock( lck ))) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: 98219 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (v= 10 +  2 <  6;print(v)) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+LockTable: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ v= 10 +  2 <  6, print(v) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+LockTable: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ v= 10 +  2 <  6, print(v) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+LockTable: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ print(v) ]
+SymTable:
+{ v: 11 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+LockTable: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (v= 10 +  2 <  6;print(v)) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+LockTable: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ v= 10 +  2 <  6, print(v) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+LockTable: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (NEW(a,  10 ) ;(NewLock( lck );(fork((lock( lck );(writeHeap(a, a +  1 ) ;unlock( lck ))) );(fork((lock( lck );(writeHeap(a, a +  1 ) ;unlock( lck ))) );(fork((lock( lck );(writeHeap(a, a +  1 ) ;unlock( lck ))) );print(a)))))) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+LockTable: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ NEW(a,  10 ) , (NewLock( lck );(fork((lock( lck );(writeHeap(a, a +  1 ) ;unlock( lck ))) );(fork((lock( lck );(writeHeap(a, a +  1 ) ;unlock( lck ))) );(fork((lock( lck );(writeHeap(a, a +  1 ) ;unlock( lck ))) );print(a))))) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+LockTable: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ NEW(a,  10 ) , (NewLock( lck );(fork((lock( lck );(writeHeap(a, a +  1 ) ;unlock( lck ))) );(fork((lock( lck );(writeHeap(a, a +  1 ) ;unlock( lck ))) );(fork((lock( lck );(writeHeap(a, a +  1 ) ;unlock( lck ))) );print(a))))) ]
+SymTable:
+{  }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{  }
+LockTable: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (NewLock( lck );(fork((lock( lck );(writeHeap(a, a +  1 ) ;unlock( lck ))) );(fork((lock( lck );(writeHeap(a, a +  1 ) ;unlock( lck ))) );(fork((lock( lck );(writeHeap(a, a +  1 ) ;unlock( lck ))) );print(a))))) ]
+SymTable:
+{ a: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (NewLock( lck );(fork((lock( lck );(writeHeap(a, a +  1 ) ;unlock( lck ))) );(fork((lock( lck );(writeHeap(a, a +  1 ) ;unlock( lck ))) );(fork((lock( lck );(writeHeap(a, a +  1 ) ;unlock( lck ))) );print(a))))) ]
+SymTable:
+{ a: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ NewLock( lck ), (fork((lock( lck );(writeHeap(a, a +  1 ) ;unlock( lck ))) );(fork((lock( lck );(writeHeap(a, a +  1 ) ;unlock( lck ))) );(fork((lock( lck );(writeHeap(a, a +  1 ) ;unlock( lck ))) );print(a)))) ]
+SymTable:
+{ a: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ NewLock( lck ), (fork((lock( lck );(writeHeap(a, a +  1 ) ;unlock( lck ))) );(fork((lock( lck );(writeHeap(a, a +  1 ) ;unlock( lck ))) );(fork((lock( lck );(writeHeap(a, a +  1 ) ;unlock( lck ))) );print(a)))) ]
+SymTable:
+{ a: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{  }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (fork((lock( lck );(writeHeap(a, a +  1 ) ;unlock( lck ))) );(fork((lock( lck );(writeHeap(a, a +  1 ) ;unlock( lck ))) );(fork((lock( lck );(writeHeap(a, a +  1 ) ;unlock( lck ))) );print(a)))) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (fork((lock( lck );(writeHeap(a, a +  1 ) ;unlock( lck ))) );(fork((lock( lck );(writeHeap(a, a +  1 ) ;unlock( lck ))) );(fork((lock( lck );(writeHeap(a, a +  1 ) ;unlock( lck ))) );print(a)))) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ fork((lock( lck );(writeHeap(a, a +  1 ) ;unlock( lck ))) ), (fork((lock( lck );(writeHeap(a, a +  1 ) ;unlock( lck ))) );(fork((lock( lck );(writeHeap(a, a +  1 ) ;unlock( lck ))) );print(a))) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ fork((lock( lck );(writeHeap(a, a +  1 ) ;unlock( lck ))) ), (fork((lock( lck );(writeHeap(a, a +  1 ) ;unlock( lck ))) );(fork((lock( lck );(writeHeap(a, a +  1 ) ;unlock( lck ))) );print(a))) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (fork((lock( lck );(writeHeap(a, a +  1 ) ;unlock( lck ))) );(fork((lock( lck );(writeHeap(a, a +  1 ) ;unlock( lck ))) );print(a))) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 26711) ===
+ExeStack:
+[ (lock( lck );(writeHeap(a, a +  1 ) ;unlock( lck ))) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (fork((lock( lck );(writeHeap(a, a +  1 ) ;unlock( lck ))) );(fork((lock( lck );(writeHeap(a, a +  1 ) ;unlock( lck ))) );print(a))) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 26711) ===
+ExeStack:
+[ (lock( lck );(writeHeap(a, a +  1 ) ;unlock( lck ))) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ fork((lock( lck );(writeHeap(a, a +  1 ) ;unlock( lck ))) ), (fork((lock( lck );(writeHeap(a, a +  1 ) ;unlock( lck ))) );print(a)) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 26711) ===
+ExeStack:
+[ lock( lck ), (writeHeap(a, a +  1 ) ;unlock( lck )) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ fork((lock( lck );(writeHeap(a, a +  1 ) ;unlock( lck ))) ), (fork((lock( lck );(writeHeap(a, a +  1 ) ;unlock( lck ))) );print(a)) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 26711) ===
+ExeStack:
+[ lock( lck ), (writeHeap(a, a +  1 ) ;unlock( lck )) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (fork((lock( lck );(writeHeap(a, a +  1 ) ;unlock( lck ))) );print(a)) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: 26711 }
+
+=== Prog Eval (ID 26711) ===
+ExeStack:
+[ (writeHeap(a, a +  1 ) ;unlock( lck )) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: 26711 }
+
+=== Prog Eval (ID 23272) ===
+ExeStack:
+[ (lock( lck );(writeHeap(a, a +  1 ) ;unlock( lck ))) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: 26711 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ (fork((lock( lck );(writeHeap(a, a +  1 ) ;unlock( lck ))) );print(a)) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: 26711 }
+
+=== Prog Eval (ID 26711) ===
+ExeStack:
+[ (writeHeap(a, a +  1 ) ;unlock( lck )) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: 26711 }
+
+=== Prog Eval (ID 23272) ===
+ExeStack:
+[ (lock( lck );(writeHeap(a, a +  1 ) ;unlock( lck ))) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: 26711 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ fork((lock( lck );(writeHeap(a, a +  1 ) ;unlock( lck ))) ), print(a) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: 26711 }
+
+=== Prog Eval (ID 26711) ===
+ExeStack:
+[ writeHeap(a, a +  1 ) , unlock( lck ) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: 26711 }
+
+=== Prog Eval (ID 23272) ===
+ExeStack:
+[ lock( lck ), (writeHeap(a, a +  1 ) ;unlock( lck )) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: 26711 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ fork((lock( lck );(writeHeap(a, a +  1 ) ;unlock( lck ))) ), print(a) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: 26711 }
+
+=== Prog Eval (ID 26711) ===
+ExeStack:
+[ writeHeap(a, a +  1 ) , unlock( lck ) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: 26711 }
+
+=== Prog Eval (ID 23272) ===
+ExeStack:
+[ lock( lck ), (writeHeap(a, a +  1 ) ;unlock( lck )) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 10 }
+LockTable: 
+{ 1: 26711 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ print(a) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 11 }
+LockTable: 
+{ 1: 26711 }
+
+=== Prog Eval (ID 26711) ===
+ExeStack:
+[ unlock( lck ) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 11 }
+LockTable: 
+{ 1: 26711 }
+
+=== Prog Eval (ID 23272) ===
+ExeStack:
+[ lock( lck ), (writeHeap(a, a +  1 ) ;unlock( lck )) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 11 }
+LockTable: 
+{ 1: 26711 }
+
+=== Prog Eval (ID 95952) ===
+ExeStack:
+[ (lock( lck );(writeHeap(a, a +  1 ) ;unlock( lck ))) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 11 }
+LockTable: 
+{ 1: 26711 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[ print(a) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 11 }
+LockTable: 
+{ 1: 26711 }
+
+=== Prog Eval (ID 26711) ===
+ExeStack:
+[ unlock( lck ) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 11 }
+LockTable: 
+{ 1: 26711 }
+
+=== Prog Eval (ID 23272) ===
+ExeStack:
+[ lock( lck ), (writeHeap(a, a +  1 ) ;unlock( lck )) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 11 }
+LockTable: 
+{ 1: 26711 }
+
+=== Prog Eval (ID 95952) ===
+ExeStack:
+[ (lock( lck );(writeHeap(a, a +  1 ) ;unlock( lck ))) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+
+FileTable:
+{  }
+Heap: 
+{ 1: 11 }
+LockTable: 
+{ 1: 26711 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 11 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 26711) ===
+ExeStack:
+[  ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 11 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 23272) ===
+ExeStack:
+[ lock( lck ), (writeHeap(a, a +  1 ) ;unlock( lck )) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 11 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 95952) ===
+ExeStack:
+[ lock( lck ), (writeHeap(a, a +  1 ) ;unlock( lck )) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 11 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 11 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 26711) ===
+ExeStack:
+[  ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 11 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 23272) ===
+ExeStack:
+[ lock( lck ), (writeHeap(a, a +  1 ) ;unlock( lck )) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 11 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 95952) ===
+ExeStack:
+[ lock( lck ), (writeHeap(a, a +  1 ) ;unlock( lck )) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 11 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 11 }
+LockTable: 
+{ 1: 23272 }
+
+=== Prog Eval (ID 26711) ===
+ExeStack:
+[  ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 11 }
+LockTable: 
+{ 1: 23272 }
+
+=== Prog Eval (ID 23272) ===
+ExeStack:
+[ (writeHeap(a, a +  1 ) ;unlock( lck )) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 11 }
+LockTable: 
+{ 1: 23272 }
+
+=== Prog Eval (ID 95952) ===
+ExeStack:
+[ lock( lck ), (writeHeap(a, a +  1 ) ;unlock( lck )) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 11 }
+LockTable: 
+{ 1: 23272 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 11 }
+LockTable: 
+{ 1: 23272 }
+
+=== Prog Eval (ID 26711) ===
+ExeStack:
+[  ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 11 }
+LockTable: 
+{ 1: 23272 }
+
+=== Prog Eval (ID 23272) ===
+ExeStack:
+[ (writeHeap(a, a +  1 ) ;unlock( lck )) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 11 }
+LockTable: 
+{ 1: 23272 }
+
+=== Prog Eval (ID 95952) ===
+ExeStack:
+[ lock( lck ), (writeHeap(a, a +  1 ) ;unlock( lck )) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 11 }
+LockTable: 
+{ 1: 23272 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 11 }
+LockTable: 
+{ 1: 23272 }
+
+=== Prog Eval (ID 26711) ===
+ExeStack:
+[  ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 11 }
+LockTable: 
+{ 1: 23272 }
+
+=== Prog Eval (ID 23272) ===
+ExeStack:
+[ writeHeap(a, a +  1 ) , unlock( lck ) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 11 }
+LockTable: 
+{ 1: 23272 }
+
+=== Prog Eval (ID 95952) ===
+ExeStack:
+[ lock( lck ), (writeHeap(a, a +  1 ) ;unlock( lck )) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 11 }
+LockTable: 
+{ 1: 23272 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 11 }
+LockTable: 
+{ 1: 23272 }
+
+=== Prog Eval (ID 26711) ===
+ExeStack:
+[  ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 11 }
+LockTable: 
+{ 1: 23272 }
+
+=== Prog Eval (ID 23272) ===
+ExeStack:
+[ writeHeap(a, a +  1 ) , unlock( lck ) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 11 }
+LockTable: 
+{ 1: 23272 }
+
+=== Prog Eval (ID 95952) ===
+ExeStack:
+[ lock( lck ), (writeHeap(a, a +  1 ) ;unlock( lck )) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 11 }
+LockTable: 
+{ 1: 23272 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 12 }
+LockTable: 
+{ 1: 23272 }
+
+=== Prog Eval (ID 26711) ===
+ExeStack:
+[  ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 12 }
+LockTable: 
+{ 1: 23272 }
+
+=== Prog Eval (ID 23272) ===
+ExeStack:
+[ unlock( lck ) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 12 }
+LockTable: 
+{ 1: 23272 }
+
+=== Prog Eval (ID 95952) ===
+ExeStack:
+[ lock( lck ), (writeHeap(a, a +  1 ) ;unlock( lck )) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 12 }
+LockTable: 
+{ 1: 23272 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 12 }
+LockTable: 
+{ 1: 23272 }
+
+=== Prog Eval (ID 26711) ===
+ExeStack:
+[  ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 12 }
+LockTable: 
+{ 1: 23272 }
+
+=== Prog Eval (ID 23272) ===
+ExeStack:
+[ unlock( lck ) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 12 }
+LockTable: 
+{ 1: 23272 }
+
+=== Prog Eval (ID 95952) ===
+ExeStack:
+[ lock( lck ), (writeHeap(a, a +  1 ) ;unlock( lck )) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 12 }
+LockTable: 
+{ 1: 23272 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 12 }
+LockTable: 
+{ 1: 95952 }
+
+=== Prog Eval (ID 26711) ===
+ExeStack:
+[  ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 12 }
+LockTable: 
+{ 1: 95952 }
+
+=== Prog Eval (ID 23272) ===
+ExeStack:
+[  ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 12 }
+LockTable: 
+{ 1: 95952 }
+
+=== Prog Eval (ID 95952) ===
+ExeStack:
+[ (writeHeap(a, a +  1 ) ;unlock( lck )) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 12 }
+LockTable: 
+{ 1: 95952 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 12 }
+LockTable: 
+{ 1: 95952 }
+
+=== Prog Eval (ID 26711) ===
+ExeStack:
+[  ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 12 }
+LockTable: 
+{ 1: 95952 }
+
+=== Prog Eval (ID 23272) ===
+ExeStack:
+[  ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 12 }
+LockTable: 
+{ 1: 95952 }
+
+=== Prog Eval (ID 95952) ===
+ExeStack:
+[ (writeHeap(a, a +  1 ) ;unlock( lck )) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 12 }
+LockTable: 
+{ 1: 95952 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 12 }
+LockTable: 
+{ 1: 95952 }
+
+=== Prog Eval (ID 26711) ===
+ExeStack:
+[  ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 12 }
+LockTable: 
+{ 1: 95952 }
+
+=== Prog Eval (ID 23272) ===
+ExeStack:
+[  ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 12 }
+LockTable: 
+{ 1: 95952 }
+
+=== Prog Eval (ID 95952) ===
+ExeStack:
+[ writeHeap(a, a +  1 ) , unlock( lck ) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 12 }
+LockTable: 
+{ 1: 95952 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 12 }
+LockTable: 
+{ 1: 95952 }
+
+=== Prog Eval (ID 26711) ===
+ExeStack:
+[  ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 12 }
+LockTable: 
+{ 1: 95952 }
+
+=== Prog Eval (ID 23272) ===
+ExeStack:
+[  ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 12 }
+LockTable: 
+{ 1: 95952 }
+
+=== Prog Eval (ID 95952) ===
+ExeStack:
+[ writeHeap(a, a +  1 ) , unlock( lck ) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 12 }
+LockTable: 
+{ 1: 95952 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 13 }
+LockTable: 
+{ 1: 95952 }
+
+=== Prog Eval (ID 26711) ===
+ExeStack:
+[  ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 13 }
+LockTable: 
+{ 1: 95952 }
+
+=== Prog Eval (ID 23272) ===
+ExeStack:
+[  ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 13 }
+LockTable: 
+{ 1: 95952 }
+
+=== Prog Eval (ID 95952) ===
+ExeStack:
+[ unlock( lck ) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 13 }
+LockTable: 
+{ 1: 95952 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 13 }
+LockTable: 
+{ 1: 95952 }
+
+=== Prog Eval (ID 26711) ===
+ExeStack:
+[  ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 13 }
+LockTable: 
+{ 1: 95952 }
+
+=== Prog Eval (ID 23272) ===
+ExeStack:
+[  ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 13 }
+LockTable: 
+{ 1: 95952 }
+
+=== Prog Eval (ID 95952) ===
+ExeStack:
+[ unlock( lck ) ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 13 }
+LockTable: 
+{ 1: 95952 }
+
+=== Prog Eval (ID 1) ===
+ExeStack:
+[  ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 13 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 26711) ===
+ExeStack:
+[  ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 13 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 23272) ===
+ExeStack:
+[  ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 13 }
+LockTable: 
+{ 1: -1 }
+
+=== Prog Eval (ID 95952) ===
+ExeStack:
+[  ]
+SymTable:
+{ a: 1, lck: 1 }
+Out:
+11 
+FileTable:
+{  }
+Heap: 
+{ 1: 13 }
+LockTable: 
+{ 1: -1 }
